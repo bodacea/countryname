@@ -1,0 +1,57 @@
+Metadata-Version: 1.0
+Name: uncountry
+Version: 0.1
+Summary: country names from unstats, fips, stanag and CIA world factbook
+Home-page: UNKNOWN
+Author: Sara-Jayne Farmer
+Author-email: sara@changeassembly.com
+License: LGPL 2.1
+Description: =========
+        uncountry
+        =========
+        
+        uncountry provides databases for standards:
+        
+        UNstats
+          Countries
+              
+        The package includes a copy from Debian's `pkg-isocodes` and makes the data
+        accessible through a Python API.
+		
+		The package includes a shameless copy of pycountry's methods, in the hope that it might eventually become part of pycountry.
+        
+        Countries (Unstats)
+        ====================
+        
+        Countries are accessible through a database object that is already configured
+        upon import of uncountry and works as an iterable:
+        
+          >>> import uncountry
+          >>> len(uncountry.countries)
+          248
+          >>> list(uncountry.countries)[0]
+          <uncountry.db.Country object at 0x...>
+        
+        Specific countries can be looked up by their various codes and provide the
+        information included in the standard as attributes:
+        
+          >>> germany = uncountry.countries.get(code='276')
+          >>> germany
+          <pycountry.db.Country object at 0x...>
+          >>> germany.code
+          u'276'
+          >>> germany.name
+          u'Germany'
+        
+        Note that historic countries are mostly not included in this list.
+                
+        Changes
+        =======
+        
+        0.1
+        -------------------
+        
+        - Initial release
+        
+Keywords: country unstats
+Platform: UNKNOWN

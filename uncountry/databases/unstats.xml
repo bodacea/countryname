@@ -1,0 +1,2222 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!--
+This file gives a list of all countries in the UNstats
+standard, and is used to provide translations via gettext
+
+Copyright (C) 2013 Sara-Jayne Farmer <sara@changeassembly.com>
+
+    This file is free software; you can redistribute it and/or
+    modify it under the terms of the GNU Lesser General Public
+    License as published by the Free Software Foundation; either
+    version 2.1 of the License, or (at your option) any later version.
+
+    This file is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+    Lesser General Public License for more details.
+
+    You should have received a copy of the GNU Lesser General Public
+    License along with this file; if not, write to the Free Software
+    Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA
+
+Source: <http://unstats.un.org/unsd/methods/m49/m49.htm>
+-->
+
+<!DOCTYPE unstats_entries [
+	<!ELEMENT unstats_entries (unstats_country+, unstats_region*, unstats_economic*)>
+	<!ELEMENT unstats_country EMPTY>
+	<!ATTLIST unstats_country
+		numeric_code		CDATA	#REQUIRED
+		name			    CDATA	#REQUIRED
+		parent		        CDATA	#IMPLIED
+		economicgroup1		CDATA	#IMPLIED
+		economicgroup2		CDATA	#IMPLIED
+	>
+	<!ELEMENT unstats_region EMPTY>
+	<!ATTLIST unstats_region
+		numeric_code		CDATA	#REQUIRED
+		name			    CDATA	#REQUIRED
+		parent		        CDATA	#IMPLIED
+		economicgroup1		CDATA	#IMPLIED
+	>
+	<!ELEMENT unstats_economic EMPTY>
+	<!ATTLIST unstats_economic
+		numeric_code		CDATA	#REQUIRED
+		name			    CDATA	#REQUIRED
+		parent		        CDATA	#IMPLIED
+	>
+]>
+
+<unstats_countries>
+    <unstats_country
+        numeric_code="248"
+        name="Åland Islands"
+        parent="Northern Europe"
+
+
+    />
+    <unstats_country
+        numeric_code="4"
+        name="Afghanistan"
+        parent="Southern Asia"
+        economicgroup1 ="Least developed countries"
+        economicgroup2 ="Landlocked developing countries"
+    />
+    <unstats_country
+        numeric_code="8"
+        name="Albania"
+        parent="Southern Europe"
+        economicgroup1 ="Transition countries of South-Eastern Europe"
+
+    />
+    <unstats_country
+        numeric_code="12"
+        name="Algeria"
+        parent="Northern Africa"
+
+
+    />
+    <unstats_country
+        numeric_code="16"
+        name="American Samoa"
+        parent="Polynesia"
+        economicgroup1 ="Small island developing States"
+
+    />
+    <unstats_country
+        numeric_code="20"
+        name="Andorra"
+        parent="Southern Europe"
+
+
+    />
+    <unstats_country
+        numeric_code="24"
+        name="Angola"
+        parent="Middle Africa"
+        economicgroup1 ="Least developed countries"
+
+    />
+    <unstats_country
+        numeric_code="660"
+        name="Anguilla"
+        parent="Caribbean"
+        economicgroup1 ="Small island developing States"
+
+    />
+    <unstats_country
+        numeric_code="28"
+        name="Antigua and Barbuda"
+        parent="Caribbean"
+        economicgroup1 ="Small island developing States"
+
+    />
+    <unstats_country
+        numeric_code="32"
+        name="Argentina"
+        parent="South America"
+
+
+    />
+    <unstats_country
+        numeric_code="51"
+        name="Armenia"
+        parent="Western Asia"
+        economicgroup1 ="Landlocked developing countries"
+        economicgroup2 ="Commonwealth of Independent States"
+    />
+    <unstats_country
+        numeric_code="533"
+        name="Aruba"
+        parent="Caribbean"
+        economicgroup1 ="Small island developing States"
+
+    />
+    <unstats_country
+        numeric_code="36"
+        name="Australia"
+        parent="Australia and New Zealand"
+
+
+    />
+    <unstats_country
+        numeric_code="40"
+        name="Austria"
+        parent="Western Europe"
+
+
+    />
+    <unstats_country
+        numeric_code="31"
+        name="Azerbaijan"
+        parent="Western Asia"
+        economicgroup1 ="Landlocked developing countries"
+        economicgroup2 ="Commonwealth of Independent States"
+    />
+    <unstats_country
+        numeric_code="44"
+        name="Bahamas"
+        parent="Caribbean"
+        economicgroup1 ="Small island developing States"
+
+    />
+    <unstats_country
+        numeric_code="48"
+        name="Bahrain"
+        parent="Western Asia"
+
+
+    />
+    <unstats_country
+        numeric_code="50"
+        name="Bangladesh"
+        parent="Southern Asia"
+        economicgroup1 ="Least developed countries"
+
+    />
+    <unstats_country
+        numeric_code="52"
+        name="Barbados"
+        parent="Caribbean"
+        economicgroup1 ="Small island developing States"
+
+    />
+    <unstats_country
+        numeric_code="112"
+        name="Belarus"
+        parent="Eastern Europe"
+        economicgroup1 ="Commonwealth of Independent States"
+
+    />
+    <unstats_country
+        numeric_code="56"
+        name="Belgium"
+        parent="Western Europe"
+
+
+    />
+    <unstats_country
+        numeric_code="84"
+        name="Belize"
+        parent="Central America"
+        economicgroup1 ="Small island developing States"
+
+    />
+    <unstats_country
+        numeric_code="204"
+        name="Benin"
+        parent="Western Africa"
+        economicgroup1 ="Least developed countries"
+
+    />
+    <unstats_country
+        numeric_code="60"
+        name="Bermuda"
+        parent="Northern America"
+
+
+    />
+    <unstats_country
+        numeric_code="64"
+        name="Bhutan"
+        parent="Southern Asia"
+        economicgroup1 ="Least developed countries"
+        economicgroup2 ="Landlocked developing countries"
+    />
+    <unstats_country
+        numeric_code="68"
+        name="Bolivia (Plurinational State of)"
+        parent="South America"
+        economicgroup1 ="Landlocked developing countries"
+
+    />
+    <unstats_country
+        numeric_code="535"
+        name="Bonaire, Saint Eustatius and Saba"
+        parent="Caribbean"
+
+
+    />
+    <unstats_country
+        numeric_code="70"
+        name="Bosnia and Herzegovina"
+        parent="Southern Europe"
+        economicgroup1 ="Transition countries of South-Eastern Europe"
+
+    />
+    <unstats_country
+        numeric_code="72"
+        name="Botswana"
+        parent="Southern Africa"
+        economicgroup1 ="Landlocked developing countries"
+
+    />
+    <unstats_country
+        numeric_code="76"
+        name="Brazil"
+        parent="South America"
+
+
+    />
+    <unstats_country
+        numeric_code="92"
+        name="British Virgin Islands"
+        parent="Caribbean"
+        economicgroup1 ="Small island developing States"
+
+    />
+    <unstats_country
+        numeric_code="96"
+        name="Brunei Darussalam"
+        parent="South-Eastern Asia"
+
+
+    />
+    <unstats_country
+        numeric_code="100"
+        name="Bulgaria"
+        parent="Eastern Europe"
+
+
+    />
+    <unstats_country
+        numeric_code="854"
+        name="Burkina Faso"
+        parent="Western Africa"
+        economicgroup1 ="Least developed countries"
+        economicgroup2 ="Landlocked developing countries"
+    />
+    <unstats_country
+        numeric_code="108"
+        name="Burundi"
+        parent="Eastern Africa"
+        economicgroup1 ="Least developed countries"
+        economicgroup2 ="Landlocked developing countries"
+    />
+    <unstats_country
+        numeric_code="116"
+        name="Cambodia"
+        parent="South-Eastern Asia"
+        economicgroup1 ="Least developed countries"
+
+    />
+    <unstats_country
+        numeric_code="120"
+        name="Cameroon"
+        parent="Middle Africa"
+
+
+    />
+    <unstats_country
+        numeric_code="124"
+        name="Canada"
+        parent="Northern America"
+
+
+    />
+    <unstats_country
+        numeric_code="132"
+        name="Cape Verde"
+        parent="Western Africa"
+        economicgroup1 ="Small island developing States"
+
+    />
+    <unstats_country
+        numeric_code="136"
+        name="Cayman Islands"
+        parent="Caribbean"
+
+
+    />
+    <unstats_country
+        numeric_code="140"
+        name="Central African Republic"
+        parent="Middle Africa"
+        economicgroup1 ="Least developed countries"
+        economicgroup2 ="Landlocked developing countries"
+    />
+    <unstats_country
+        numeric_code="148"
+        name="Chad"
+        parent="Middle Africa"
+        economicgroup1 ="Least developed countries"
+        economicgroup2 ="Landlocked developing countries"
+    />
+    <unstats_country
+        numeric_code="830"
+        name="Channel Islands"
+        parent="Northern Europe"
+
+
+    />
+    <unstats_country
+        numeric_code="152"
+        name="Chile"
+        parent="South America"
+
+
+    />
+    <unstats_country
+        numeric_code="156"
+        name="China"
+        parent="Eastern Asia"
+        economicgroup1 ="Developing regions"
+
+    />
+    <unstats_country
+        numeric_code="344"
+        name="China, Hong Kong Special Administrative Region "
+        parent="Eastern Asia"
+        economicgroup1 ="Developing regions"
+
+    />
+    <unstats_country
+        numeric_code="446"
+        name="China, Macao Special Administrative Region "
+        parent="Eastern Asia"
+        economicgroup1 ="Developing regions"
+
+    />
+    <unstats_country
+        numeric_code="170"
+        name="Colombia"
+        parent="South America"
+
+
+    />
+    <unstats_country
+        numeric_code="174"
+        name="Comoros"
+        parent="Eastern Africa"
+        economicgroup1 ="Least developed countries"
+        economicgroup2 ="Small island developing States"
+    />
+    <unstats_country
+        numeric_code="178"
+        name="Congo"
+        parent="Middle Africa"
+
+
+    />
+    <unstats_country
+        numeric_code="184"
+        name="Cook Islands"
+        parent="Polynesia"
+        economicgroup1 ="Small island developing States"
+
+    />
+    <unstats_country
+        numeric_code="188"
+        name="Costa Rica"
+        parent="Central America"
+
+
+    />
+    <unstats_country
+        numeric_code="384"
+        name="Cote d'Ivoire"
+        parent="Western Africa"
+
+
+    />
+    <unstats_country
+        numeric_code="191"
+        name="Croatia"
+        parent="Southern Europe"
+        economicgroup1 ="Transition countries of South-Eastern Europe"
+
+    />
+    <unstats_country
+        numeric_code="192"
+        name="Cuba"
+        parent="Caribbean"
+        economicgroup1 ="Small island developing States"
+
+    />
+    <unstats_country
+        numeric_code="531"
+        name="Curaçao"
+        parent="Caribbean"
+
+
+    />
+    <unstats_country
+        numeric_code="196"
+        name="Cyprus"
+        parent="Western Asia"
+
+
+    />
+    <unstats_country
+        numeric_code="203"
+        name="Czech Republic"
+        parent="Eastern Europe"
+
+
+    />
+    <unstats_country
+        numeric_code="408"
+        name="Democratic People's Republic of Korea"
+        parent="Eastern Asia"
+        economicgroup1 ="Developing regions"
+
+    />
+    <unstats_country
+        numeric_code="180"
+        name="Democratic Republic of the Congo"
+        parent="Middle Africa"
+        economicgroup1 ="Least developed countries"
+
+    />
+    <unstats_country
+        numeric_code="208"
+        name="Denmark"
+        parent="Northern Europe"
+
+
+    />
+    <unstats_country
+        numeric_code="262"
+        name="Djibouti"
+        parent="Eastern Africa"
+        economicgroup1 ="Least developed countries"
+
+    />
+    <unstats_country
+        numeric_code="212"
+        name="Dominica"
+        parent="Caribbean"
+        economicgroup1 ="Small island developing States"
+
+    />
+    <unstats_country
+        numeric_code="214"
+        name="Dominican Republic"
+        parent="Caribbean"
+        economicgroup1 ="Small island developing States"
+
+    />
+    <unstats_country
+        numeric_code="218"
+        name="Ecuador"
+        parent="South America"
+
+
+    />
+    <unstats_country
+        numeric_code="818"
+        name="Egypt"
+        parent="Northern Africa"
+
+
+    />
+    <unstats_country
+        numeric_code="222"
+        name="El Salvador"
+        parent="Central America"
+
+
+    />
+    <unstats_country
+        numeric_code="226"
+        name="Equatorial Guinea"
+        parent="Middle Africa"
+        economicgroup1 ="Least developed countries"
+
+    />
+    <unstats_country
+        numeric_code="232"
+        name="Eritrea"
+        parent="Eastern Africa"
+        economicgroup1 ="Least developed countries"
+
+    />
+    <unstats_country
+        numeric_code="233"
+        name="Estonia"
+        parent="Northern Europe"
+
+
+    />
+    <unstats_country
+        numeric_code="231"
+        name="Ethiopia"
+        parent="Eastern Africa"
+        economicgroup1 ="Least developed countries"
+
+    />
+    <unstats_country
+        numeric_code="234"
+        name="Faeroe Islands"
+        parent="Northern Europe"
+
+
+    />
+    <unstats_country
+        numeric_code="238"
+        name="Falkland Islands (Malvinas)"
+        parent="South America"
+
+
+    />
+    <unstats_country
+        numeric_code="242"
+        name="Fiji"
+        parent="Melanesia"
+        economicgroup1 ="Small island developing States"
+
+    />
+    <unstats_country
+        numeric_code="246"
+        name="Finland"
+        parent="Northern Europe"
+
+
+    />
+    <unstats_country
+        numeric_code="250"
+        name="France"
+        parent="Western Europe"
+
+
+    />
+    <unstats_country
+        numeric_code="254"
+        name="French Guiana"
+        parent="South America"
+
+
+    />
+    <unstats_country
+        numeric_code="258"
+        name="French Polynesia"
+        parent="Polynesia"
+        economicgroup1 ="Small island developing States"
+
+    />
+    <unstats_country
+        numeric_code="266"
+        name="Gabon"
+        parent="Middle Africa"
+
+
+    />
+    <unstats_country
+        numeric_code="270"
+        name="Gambia"
+        parent="Western Africa"
+        economicgroup1 ="Least developed countries"
+
+    />
+    <unstats_country
+        numeric_code="268"
+        name="Georgia"
+        parent="Western Asia"
+
+
+    />
+    <unstats_country
+        numeric_code="276"
+        name="Germany"
+        parent="Western Europe"
+
+
+    />
+    <unstats_country
+        numeric_code="288"
+        name="Ghana"
+        parent="Western Africa"
+
+
+    />
+    <unstats_country
+        numeric_code="292"
+        name="Gibraltar"
+        parent="Southern Europe"
+
+
+    />
+    <unstats_country
+        numeric_code="300"
+        name="Greece"
+        parent="Southern Europe"
+
+
+    />
+    <unstats_country
+        numeric_code="304"
+        name="Greenland"
+        parent="Northern America"
+
+
+    />
+    <unstats_country
+        numeric_code="308"
+        name="Grenada"
+        parent="Caribbean"
+        economicgroup1 ="Small island developing States"
+
+    />
+    <unstats_country
+        numeric_code="312"
+        name="Guadeloupe"
+        parent="Caribbean"
+
+
+    />
+    <unstats_country
+
+        numeric_code="316"
+        name="Guam"
+        parent="Micronesia"
+        economicgroup1 ="Small island developing States"
+
+    />
+    <unstats_country
+
+        numeric_code="320"
+        name="Guatemala"
+        parent="Central America"
+
+
+    />
+    <unstats_country
+
+        numeric_code="831"
+        name="Guernsey"
+        parent="Northern Europe"
+
+
+    />
+    <unstats_country
+
+        numeric_code="324"
+        name="Guinea"
+        parent="Western Africa"
+        economicgroup1 ="Least developed countries"
+
+    />
+    <unstats_country
+
+        numeric_code="624"
+        name="Guinea-Bissau"
+        parent="Western Africa"
+        economicgroup1 ="Least developed countries"
+        economicgroup2 ="Small island developing States"
+    />
+    <unstats_country
+
+        numeric_code="328"
+        name="Guyana"
+        parent="South America"
+        economicgroup1 ="Small island developing States"
+
+    />
+    <unstats_country
+
+        numeric_code="332"
+        name="Haiti"
+        parent="Caribbean"
+        economicgroup1 ="Least developed countries"
+        economicgroup2 ="Small island developing States"
+    />
+    <unstats_country
+
+        numeric_code="336"
+        name="Holy See"
+        parent="Southern Europe"
+
+
+    />
+    <unstats_country
+
+        numeric_code="340"
+        name="Honduras"
+        parent="Central America"
+
+
+    />
+    <unstats_country
+
+        numeric_code="348"
+        name="Hungary"
+        parent="Eastern Europe"
+
+
+    />
+    <unstats_country
+
+        numeric_code="352"
+        name="Iceland"
+        parent="Northern Europe"
+
+
+    />
+    <unstats_country
+
+        numeric_code="356"
+        name="India"
+        parent="Southern Asia"
+
+
+    />
+    <unstats_country
+
+        numeric_code="360"
+        name="Indonesia"
+        parent="South-Eastern Asia"
+
+
+    />
+    <unstats_country
+
+        numeric_code="364"
+        name="Iran (Islamic Republic of)"
+        parent="Southern Asia"
+
+
+    />
+    <unstats_country
+
+        numeric_code="368"
+        name="Iraq"
+        parent="Western Asia"
+
+
+    />
+    <unstats_country
+
+        numeric_code="372"
+        name="Ireland"
+        parent="Northern Europe"
+
+
+    />
+    <unstats_country
+
+        numeric_code="833"
+        name="Isle of Man"
+        parent="Northern Europe"
+
+
+    />
+    <unstats_country
+
+        numeric_code="376"
+        name="Israel"
+        parent="Western Asia"
+
+
+    />
+    <unstats_country
+
+        numeric_code="380"
+        name="Italy"
+        parent="Southern Europe"
+
+
+    />
+    <unstats_country
+
+        numeric_code="388"
+        name="Jamaica"
+        parent="Caribbean"
+        economicgroup1 ="Small island developing States"
+
+    />
+    <unstats_country
+
+        numeric_code="392"
+        name="Japan"
+        parent="Eastern Asia"
+        economicgroup1 ="Developed regions"
+
+    />
+    <unstats_country
+
+        numeric_code="832"
+        name="Jersey"
+        parent="Northern Europe"
+
+
+    />
+    <unstats_country
+
+        numeric_code="400"
+        name="Jordan"
+        parent="Western Asia"
+
+
+    />
+    <unstats_country
+
+        numeric_code="398"
+        name="Kazakhstan"
+        parent="Central Asia"
+        economicgroup1 ="Landlocked developing countries"
+        economicgroup2 ="Commonwealth of Independent States"
+    />
+    <unstats_country
+
+        numeric_code="404"
+        name="Kenya"
+        parent="Eastern Africa"
+
+
+    />
+    <unstats_country
+
+        numeric_code="296"
+        name="Kiribati"
+        parent="Micronesia"
+        economicgroup1 ="Least developed countries"
+        economicgroup2 ="Small island developing States"
+    />
+    <unstats_country
+
+        numeric_code="414"
+        name="Kuwait"
+        parent="Western Asia"
+
+
+    />
+    <unstats_country
+
+        numeric_code="417"
+        name="Kyrgyzstan"
+        parent="Central Asia"
+        economicgroup1 ="Landlocked developing countries"
+        economicgroup2 ="Commonwealth of Independent States"
+    />
+    <unstats_country
+
+        numeric_code="418"
+        name="Lao People's Democratic Republic"
+        parent="South-Eastern Asia"
+        economicgroup1 ="Least developed countries"
+        economicgroup2 ="Landlocked developing countries"
+    />
+    <unstats_country
+
+        numeric_code="428"
+        name="Latvia"
+        parent="Northern Europe"
+
+
+    />
+    <unstats_country
+
+        numeric_code="422"
+        name="Lebanon"
+        parent="Western Asia"
+
+
+    />
+    <unstats_country
+
+        numeric_code="426"
+        name="Lesotho"
+        parent="Southern Africa"
+        economicgroup1 ="Least developed countries"
+        economicgroup2 ="Landlocked developing countries"
+    />
+    <unstats_country
+
+        numeric_code="430"
+        name="Liberia"
+        parent="Western Africa"
+        economicgroup1 ="Least developed countries"
+
+    />
+    <unstats_country
+
+        numeric_code="434"
+        name="Libya"
+        parent="Northern Africa"
+
+
+    />
+    <unstats_country
+
+        numeric_code="438"
+        name="Liechtenstein"
+        parent="Western Europe"
+
+
+    />
+    <unstats_country
+
+        numeric_code="440"
+        name="Lithuania"
+        parent="Northern Europe"
+
+
+    />
+    <unstats_country
+
+        numeric_code="442"
+        name="Luxembourg"
+        parent="Western Europe"
+
+
+    />
+    <unstats_country
+
+        numeric_code="450"
+        name="Madagascar"
+        parent="Eastern Africa"
+        economicgroup1 ="Least developed countries"
+
+    />
+    <unstats_country
+
+        numeric_code="454"
+        name="Malawi"
+        parent="Eastern Africa"
+        economicgroup1 ="Least developed countries"
+        economicgroup2 ="Landlocked developing countries"
+    />
+    <unstats_country
+
+        numeric_code="458"
+        name="Malaysia"
+        parent="South-Eastern Asia"
+
+
+    />
+    <unstats_country
+
+        numeric_code="462"
+        name="Maldives"
+        parent="Southern Asia"
+        economicgroup1 ="Small island developing States"
+
+    />
+    <unstats_country
+
+        numeric_code="466"
+        name="Mali"
+        parent="Western Africa"
+        economicgroup1 ="Least developed countries"
+        economicgroup2 ="Landlocked developing countries"
+    />
+    <unstats_country
+
+        numeric_code="470"
+        name="Malta"
+        parent="Southern Europe"
+
+
+    />
+    <unstats_country
+
+        numeric_code="584"
+        name="Marshall Islands"
+        parent="Micronesia"
+        economicgroup1 ="Small island developing States"
+
+    />
+    <unstats_country
+
+        numeric_code="474"
+        name="Martinique"
+        parent="Caribbean"
+
+
+    />
+    <unstats_country
+
+        numeric_code="478"
+        name="Mauritania"
+        parent="Western Africa"
+        economicgroup1 ="Least developed countries"
+
+    />
+    <unstats_country
+
+        numeric_code="480"
+        name="Mauritius"
+        parent="Eastern Africa"
+        economicgroup1 ="Small island developing States"
+
+    />
+    <unstats_country
+
+        numeric_code="175"
+        name="Mayotte"
+        parent="Eastern Africa"
+
+
+    />
+    <unstats_country
+
+        numeric_code="484"
+        name="Mexico"
+        parent="Central America"
+
+
+    />
+    <unstats_country
+
+        numeric_code="583"
+        name="Micronesia (Federated States of)"
+        parent="Micronesia"
+        economicgroup1 ="Small island developing States"
+
+    />
+    <unstats_country
+
+        numeric_code="492"
+        name="Monaco"
+        parent="Western Europe"
+
+
+    />
+    <unstats_country
+
+        numeric_code="496"
+        name="Mongolia"
+        parent="Eastern Asia"
+        economicgroup1 ="Landlocked developing countries"
+        economicgroup2 ="Developing regions"
+    />
+    <unstats_country
+
+        numeric_code="499"
+        name="Montenegro"
+        parent="Southern Europe"
+
+
+    />
+    <unstats_country
+
+        numeric_code="499"
+        name="Montenegro"
+        parent="Transition countries of South-Eastern Europe"
+
+
+    />
+    <unstats_country
+
+        numeric_code="500"
+        name="Montserrat"
+        parent="Caribbean"
+        economicgroup1 ="Small island developing States"
+
+    />
+    <unstats_country
+
+        numeric_code="504"
+        name="Morocco"
+        parent="Northern Africa"
+
+
+    />
+    <unstats_country
+
+        numeric_code="508"
+        name="Mozambique"
+        parent="Eastern Africa"
+        economicgroup1 ="Least developed countries"
+
+    />
+    <unstats_country
+
+        numeric_code="104"
+        name="Myanmar"
+        parent="South-Eastern Asia"
+        economicgroup1 ="Least developed countries"
+
+    />
+    <unstats_country
+
+        numeric_code="516"
+        name="Namibia"
+        parent="Southern Africa"
+
+
+    />
+    <unstats_country
+
+        numeric_code="520"
+        name="Nauru"
+        parent="Micronesia"
+        economicgroup1 ="Small island developing States"
+
+    />
+    <unstats_country
+
+        numeric_code="524"
+        name="Nepal"
+        parent="Southern Asia"
+        economicgroup1 ="Least developed countries"
+        economicgroup2 ="Landlocked developing countries"
+    />
+    <unstats_country
+
+        numeric_code="530"
+        name="Netherland Antilles"
+        parent="Caribbean"
+        economicgroup1 ="Small island developing States"
+
+    />
+    <unstats_country
+
+        numeric_code="528"
+        name="Netherlands"
+        parent="Western Europe"
+
+
+    />
+    <unstats_country
+
+        numeric_code="540"
+        name="New Caledonia"
+        parent="Melanesia"
+        economicgroup1 ="Small island developing States"
+
+    />
+    <unstats_country
+
+        numeric_code="554"
+        name="New Zealand"
+        parent="Australia and New Zealand"
+
+
+    />
+    <unstats_country
+
+        numeric_code="558"
+        name="Nicaragua"
+        parent="Central America"
+
+
+    />
+    <unstats_country
+
+        numeric_code="562"
+        name="Niger"
+        parent="Western Africa"
+        economicgroup1 ="Least developed countries"
+        economicgroup2 ="Landlocked developing countries"
+    />
+    <unstats_country
+
+        numeric_code="566"
+        name="Nigeria"
+        parent="Western Africa"
+
+
+    />
+    <unstats_country
+
+        numeric_code="570"
+        name="Niue"
+        parent="Polynesia"
+        economicgroup1 ="Small island developing States"
+
+    />
+    <unstats_country
+
+        numeric_code="574"
+        name="Norfolk Island"
+        parent="Australia and New Zealand"
+
+
+    />
+    <unstats_country
+
+        numeric_code="580"
+        name="Northern Mariana Islands"
+        parent="Micronesia"
+        economicgroup1 ="Small island developing States"
+
+    />
+    <unstats_country
+
+        numeric_code="578"
+        name="Norway"
+        parent="Northern Europe"
+
+
+    />
+    <unstats_country
+
+        numeric_code="275"
+        name="Occupied Palestinian Territory"
+        parent="Western Asia"
+
+
+    />
+    <unstats_country
+
+        numeric_code="512"
+        name="Oman"
+        parent="Western Asia"
+
+
+    />
+    <unstats_country
+
+        numeric_code="586"
+        name="Pakistan"
+        parent="Southern Asia"
+
+
+    />
+    <unstats_country
+
+        numeric_code="585"
+        name="Palau"
+        parent="Micronesia"
+        economicgroup1 ="Small island developing States"
+
+    />
+    <unstats_country
+
+        numeric_code="591"
+        name="Panama"
+        parent="Central America"
+
+
+    />
+    <unstats_country
+
+        numeric_code="598"
+        name="Papua New Guinea"
+        parent="Melanesia"
+        economicgroup1 ="Small island developing States"
+
+    />
+    <unstats_country
+
+        numeric_code="600"
+        name="Paraguay"
+        parent="South America"
+        economicgroup1 ="Landlocked developing countries"
+
+    />
+    <unstats_country
+
+        numeric_code="604"
+        name="Peru"
+        parent="South America"
+
+
+    />
+    <unstats_country
+
+        numeric_code="608"
+        name="Philippines"
+        parent="South-Eastern Asia"
+
+
+    />
+    <unstats_country
+
+        numeric_code="612"
+        name="Pitcairn"
+        parent="Polynesia"
+
+
+    />
+    <unstats_country
+
+        numeric_code="616"
+        name="Poland"
+        parent="Eastern Europe"
+
+
+    />
+    <unstats_country
+
+        numeric_code="620"
+        name="Portugal"
+        parent="Southern Europe"
+
+
+    />
+    <unstats_country
+
+        numeric_code="630"
+        name="Puerto Rico"
+        parent="Caribbean"
+        economicgroup1 ="Small island developing States"
+
+    />
+    <unstats_country
+
+        numeric_code="634"
+        name="Qatar"
+        parent="Western Asia"
+
+
+    />
+    <unstats_country
+
+        numeric_code="638"
+        name="Réunion"
+        parent="Eastern Africa"
+
+
+    />
+    <unstats_country
+
+        numeric_code="410"
+        name="Republic of Korea"
+        parent="Eastern Asia"
+        economicgroup1 ="Developing regions"
+
+    />
+    <unstats_country
+
+        numeric_code="498"
+        name="Republic of Moldova"
+        parent="Eastern Europe"
+        economicgroup1 ="Landlocked developing countries"
+        economicgroup2 ="Commonwealth of Independent States"
+    />
+    <unstats_country
+
+        numeric_code="642"
+        name="Romania"
+        parent="Eastern Europe"
+
+
+    />
+    <unstats_country
+
+        numeric_code="643"
+        name="Russian Federation"
+        parent="Eastern Europe"
+        economicgroup1 ="Commonwealth of Independent States"
+
+    />
+    <unstats_country
+
+        numeric_code="646"
+        name="Rwanda"
+        parent="Eastern Africa"
+        economicgroup1 ="Least developed countries"
+        economicgroup2 ="Landlocked developing countries"
+    />
+    <unstats_country
+
+        numeric_code="654"
+        name="Saint Helena"
+        parent="Western Africa"
+
+
+    />
+    <unstats_country
+
+        numeric_code="659"
+        name="Saint Kitts and Nevis"
+        parent="Caribbean"
+        economicgroup1 ="Small island developing States"
+
+    />
+    <unstats_country
+
+        numeric_code="662"
+        name="Saint Lucia"
+        parent="Caribbean"
+        economicgroup1 ="Small island developing States"
+
+    />
+    <unstats_country
+
+        numeric_code="663"
+        name="Saint Martin (French part)"
+        parent="Caribbean"
+
+
+    />
+    <unstats_country
+
+        numeric_code="666"
+        name="Saint Pierre and Miquelon"
+        parent="Northern America"
+
+
+    />
+    <unstats_country
+
+        numeric_code="670"
+        name="Saint Vincent and the Grenadines"
+        parent="Caribbean"
+        economicgroup1 ="Small island developing States"
+
+    />
+    <unstats_country
+
+        numeric_code="652"
+        name="Saint-Barthélemy"
+        parent="Caribbean"
+
+
+    />
+    <unstats_country
+
+        numeric_code="882"
+        name="Samoa"
+        parent="Polynesia"
+        economicgroup1 ="Least developed countries"
+        economicgroup2 ="Small island developing States"
+    />
+    <unstats_country
+
+        numeric_code="674"
+        name="San Marino"
+        parent="Southern Europe"
+
+
+    />
+    <unstats_country
+
+        numeric_code="678"
+        name="Sao Tome and Principe"
+        parent="Middle Africa"
+        economicgroup1 ="Least developed countries"
+        economicgroup2 ="Small island developing States"
+    />
+    <unstats_country
+
+        numeric_code="680"
+        name="Sark"
+        parent="Northern Europe"
+
+
+    />
+    <unstats_country
+
+        numeric_code="682"
+        name="Saudi Arabia"
+        parent="Western Asia"
+
+
+    />
+    <unstats_country
+
+        numeric_code="686"
+        name="Senegal"
+        parent="Western Africa"
+        economicgroup1 ="Least developed countries"
+
+    />
+    <unstats_country
+
+        numeric_code="688"
+        name="Serbia"
+        parent="Southern Europe"
+        economicgroup1 ="Transition countries of South-Eastern Europe"
+
+    />
+    <unstats_country
+
+        numeric_code="690"
+        name="Seychelles"
+        parent="Eastern Africa"
+        economicgroup1 ="Small island developing States"
+
+    />
+    <unstats_country
+
+        numeric_code="694"
+        name="Sierra Leone"
+        parent="Western Africa"
+        economicgroup1 ="Least developed countries"
+
+    />
+    <unstats_country
+
+        numeric_code="702"
+        name="Singapore"
+        parent="South-Eastern Asia"
+        economicgroup1 ="Small island developing States"
+
+    />
+    <unstats_country
+
+        numeric_code="534"
+        name="Sint Maarten (Dutch part)"
+        parent="Caribbean"
+
+
+    />
+    <unstats_country
+
+        numeric_code="703"
+        name="Slovakia"
+        parent="Eastern Europe"
+
+
+    />
+    <unstats_country
+
+        numeric_code="705"
+        name="Slovenia"
+        parent="Southern Europe"
+
+
+    />
+    <unstats_country
+
+        numeric_code="90"
+        name="Solomon Islands"
+        parent="Melanesia"
+        economicgroup1 ="Least developed countries"
+        economicgroup2 ="Small island developing States"
+    />
+    <unstats_country
+
+        numeric_code="706"
+        name="Somalia"
+        parent="Eastern Africa"
+        economicgroup1 ="Least developed countries"
+
+    />
+    <unstats_country
+
+        numeric_code="710"
+        name="South Africa"
+        parent="Southern Africa"
+
+
+    />
+    <unstats_country
+
+        numeric_code="728"
+        name="South Sudan"
+        parent="Northern Africa"
+
+
+    />
+    <unstats_country
+
+        numeric_code="724"
+        name="Spain"
+        parent="Southern Europe"
+
+
+    />
+    <unstats_country
+
+        numeric_code="144"
+        name="Sri Lanka"
+        parent="Southern Asia"
+
+
+    />
+    <unstats_country
+
+        numeric_code="729"
+        name="Sudan"
+        parent="Northern Africa"
+        economicgroup1 ="Least developed countries"
+
+    />
+    <unstats_country
+
+        numeric_code="740"
+        name="Suriname"
+        parent="South America"
+        economicgroup1 ="Small island developing States"
+
+    />
+    <unstats_country
+
+        numeric_code="744"
+        name="Svalbard and Jan Mayen Islands"
+        parent="Northern Europe"
+
+
+    />
+    <unstats_country
+
+        numeric_code="748"
+        name="Swaziland"
+        parent="Southern Africa"
+        economicgroup1 ="Landlocked developing countries"
+
+    />
+    <unstats_country
+
+        numeric_code="752"
+        name="Sweden"
+        parent="Northern Europe"
+
+
+    />
+    <unstats_country
+
+        numeric_code="756"
+        name="Switzerland"
+        parent="Western Europe"
+
+
+    />
+    <unstats_country
+
+        numeric_code="760"
+        name="Syrian Arab Republic"
+        parent="Western Asia"
+
+
+    />
+    <unstats_country
+
+        numeric_code="762"
+        name="Tajikistan"
+        parent="Central Asia"
+        economicgroup1 ="Landlocked developing countries"
+        economicgroup2 ="Commonwealth of Independent States"
+    />
+    <unstats_country
+
+        numeric_code="764"
+        name="Thailand"
+        parent="South-Eastern Asia"
+
+
+    />
+    <unstats_country
+
+        numeric_code="807"
+        name="The former Yugoslav Republic of Macedonia"
+        parent="Southern Europe"
+        economicgroup1 ="Landlocked developing countries"
+        economicgroup2 ="Transition countries of South-Eastern Europe"
+    />
+    <unstats_country
+
+        numeric_code="626"
+        name="Timor-Leste"
+        parent="South-Eastern Asia"
+        economicgroup1 ="Least developed countries"
+        economicgroup2 ="Small island developing States"
+    />
+    <unstats_country
+
+        numeric_code="768"
+        name="Togo"
+        parent="Western Africa"
+        economicgroup1 ="Least developed countries"
+
+    />
+    <unstats_country
+
+        numeric_code="772"
+        name="Tokelau"
+        parent="Polynesia"
+
+
+    />
+    <unstats_country
+
+        numeric_code="776"
+        name="Tonga"
+        parent="Polynesia"
+        economicgroup1 ="Small island developing States"
+
+    />
+    <unstats_country
+
+        numeric_code="780"
+        name="Trinidad and Tobago"
+        parent="Caribbean"
+        economicgroup1 ="Small island developing States"
+
+    />
+    <unstats_country
+
+        numeric_code="788"
+        name="Tunisia"
+        parent="Northern Africa"
+
+
+    />
+    <unstats_country
+
+        numeric_code="792"
+        name="Turkey"
+        parent="Western Asia"
+
+
+    />
+    <unstats_country
+
+        numeric_code="795"
+        name="Turkmenistan"
+        parent="Central Asia"
+        economicgroup1 ="Landlocked developing countries"
+        economicgroup2 ="Commonwealth of Independent States"
+    />
+    <unstats_country
+
+        numeric_code="796"
+        name="Turks and Caicos Islands"
+        parent="Caribbean"
+
+
+    />
+    <unstats_country
+
+        numeric_code="798"
+        name="Tuvalu"
+        parent="Polynesia"
+        economicgroup1 ="Least developed countries"
+        economicgroup2 ="Small island developing States"
+    />
+    <unstats_country
+
+        numeric_code="800"
+        name="Uganda"
+        parent="Eastern Africa"
+        economicgroup1 ="Least developed countries"
+        economicgroup2 ="Landlocked developing countries"
+    />
+    <unstats_country
+
+        numeric_code="804"
+        name="Ukraine"
+        parent="Eastern Europe"
+        economicgroup1 ="Commonwealth of Independent States"
+
+    />
+    <unstats_country
+
+        numeric_code="784"
+        name="United Arab Emirates"
+        parent="Western Asia"
+
+
+    />
+    <unstats_country
+
+        numeric_code="826"
+        name="United Kingdom of Great Britain and Northern Ireland"
+        parent="Northern Europe"
+
+
+    />
+    <unstats_country
+
+        numeric_code="834"
+        name="United Republic of Tanzania"
+        parent="Eastern Africa"
+        economicgroup1 ="Least developed countries"
+
+    />
+    <unstats_country
+
+        numeric_code="840"
+        name="United States of America"
+        parent="Northern America"
+
+
+    />
+    <unstats_country
+
+        numeric_code="850"
+        name="United States Virgin Islands"
+        parent="Caribbean"
+        economicgroup1 ="Small island developing States"
+
+    />
+    <unstats_country
+
+        numeric_code="858"
+        name="Uruguay"
+        parent="South America"
+
+
+    />
+    <unstats_country
+
+        numeric_code="860"
+        name="Uzbekistan"
+        parent="Central Asia"
+        economicgroup1 ="Landlocked developing countries"
+        economicgroup2 ="Commonwealth of Independent States"
+    />
+    <unstats_country
+
+        numeric_code="548"
+        name="Vanuatu"
+        parent="Melanesia"
+        economicgroup1 ="Least developed countries"
+        economicgroup2 ="Small island developing States"
+    />
+    <unstats_country
+
+        numeric_code="862"
+        name="Venezuela (Bolivarian Republic of)"
+        parent="South America"
+
+
+    />
+    <unstats_country
+
+        numeric_code="704"
+        name="Viet Nam"
+        parent="South-Eastern Asia"
+
+
+    />
+    <unstats_country
+
+        numeric_code="876"
+        name="Wallis and Futuna Islands"
+        parent="Polynesia"
+
+
+    />
+    <unstats_country
+
+        numeric_code="732"
+        name="Western Sahara"
+        parent="Northern Africa"
+
+
+    />
+    <unstats_country
+
+        numeric_code="887"
+        name="Yemen"
+        parent="Western Asia"
+        economicgroup1 ="Least developed countries"
+
+    />
+    <unstats_country
+
+        numeric_code="894"
+        name="Zambia"
+        parent="Eastern Africa"
+        economicgroup1 ="Least developed countries"
+        economicgroup2 ="Landlocked developing countries"
+    />
+    <unstats_country
+
+        numeric_code="716"
+        name="Zimbabwe"
+        parent="Eastern Africa"
+        economicgroup1 ="Landlocked developing countries"
+
+    />
+    <unstats_economic
+
+        numeric_code=""
+        name="Transition countries of South-Eastern Europe"
+        parent="Transition countries"
+
+
+    />
+    <unstats_economic
+
+        numeric_code=""
+        name="Developed and developing regions"
+        parent="Selected economic and other groupings"
+
+
+    />
+    <unstats_economic
+
+        numeric_code=""
+        name="Developed regions"
+        parent="Selected economic and other groupings"
+
+
+    />
+    <unstats_economic
+
+        numeric_code=""
+        name="Developing regions"
+        parent="Selected economic and other groupings"
+
+
+    />
+    <unstats_economic
+
+        numeric_code="432"
+        name="Landlocked developing countries"
+        parent="Selected economic and other groupings"
+
+
+    />
+    <unstats_economic
+
+        numeric_code="199"
+        name="Least developed countries"
+        parent="Selected economic and other groupings"
+
+
+    />
+    <unstats_economic
+
+        numeric_code=""
+        name="Selected economic and other groupings"
+        parent=""
+
+
+    />
+    <unstats_economic
+
+        numeric_code="722"
+        name="Small island developing states"
+        parent="Selected economic and other groupings"
+
+
+    />
+    <unstats_economic
+
+        numeric_code="778"
+        name="Transition countries"
+        parent="Selected economic and other groupings"
+
+
+    />
+    <unstats_economic
+
+        numeric_code="172"
+        name="Commonwealth of Independent States"
+        parent="Transition countries"
+
+
+    />
+    <unstats_region
+
+        numeric_code="29"
+        name="Caribbean"
+        parent="Latin America and the Caribbean"
+        economicgroup1 ="Developing regions"
+
+    />
+    <unstats_region
+
+        numeric_code="13"
+        name="Central America"
+        parent="Latin America and the Caribbean"
+        economicgroup1 ="Developing regions"
+
+    />
+    <unstats_region
+
+        numeric_code="54"
+        name="Melanesia"
+        parent="Oceania"
+        economicgroup1 ="Developing regions"
+
+    />
+    <unstats_region
+
+        numeric_code="57"
+        name="Micronesia"
+        parent="Oceania"
+        economicgroup1 ="Developing regions"
+
+    />
+    <unstats_region
+
+        numeric_code="61"
+        name="Polynesia"
+        parent="Oceania"
+        economicgroup1 ="Developing regions"
+
+    />
+    <unstats_region
+
+        numeric_code="5"
+        name="South America"
+        parent="Latin America and the Caribbean"
+        economicgroup1 ="Developing regions"
+
+    />
+    <unstats_region
+
+        numeric_code="2"
+        name="Africa"
+        parent="World"
+        economicgroup1 ="Developing regions"
+
+    />
+    <unstats_region
+
+        numeric_code="19"
+        name="Americas"
+        parent="World"
+
+
+    />
+    <unstats_region
+
+        numeric_code="142"
+        name="Asia"
+        parent="World"
+
+
+    />
+    <unstats_region
+
+        numeric_code="143"
+        name="Central Asia"
+        parent="Asia"
+        economicgroup1 ="Developing regions"
+
+    />
+    <unstats_region
+
+        numeric_code="151"
+        name="Eastern Europe"
+        parent="Europe"
+
+
+    />
+    <unstats_region
+
+        numeric_code="154"
+        name="Northern Europe"
+        parent="Europe"
+
+
+    />
+    <unstats_region
+
+        numeric_code="39"
+        name="Southern Europe"
+        parent="Europe"
+
+
+    />
+    <unstats_region
+
+        numeric_code="14"
+        name="Eastern Africa"
+        parent="Africa"
+
+
+    />
+    <unstats_region
+
+        numeric_code="30"
+        name="Eastern Asia"
+        parent="Asia"
+
+
+    />
+    <unstats_region
+
+        numeric_code="155"
+        name="Western Europe"
+        parent="Europe"
+
+
+    />
+    <unstats_region
+
+        numeric_code="150"
+        name="Europe"
+        parent="World"
+        economicgroup1 ="Developed regions"
+
+    />
+    <unstats_region
+
+        numeric_code="419"
+        name="Latin America and the Caribbean"
+        parent="Americas"
+        economicgroup1 ="Developing regions"
+
+    />
+    <unstats_region
+
+        numeric_code="17"
+        name="Middle Africa"
+        parent="Africa"
+
+
+    />
+    <unstats_region
+
+        numeric_code="15"
+        name="Northern Africa"
+        parent="Africa"
+
+
+    />
+    <unstats_region
+
+        numeric_code="21"
+        name="Northern America"
+        parent="Americas"
+        economicgroup1 ="Developed regions"
+
+    />
+    <unstats_region
+
+        numeric_code="9"
+        name="Oceania"
+        parent="World"
+
+
+    />
+    <unstats_region
+
+        numeric_code="35"
+        name="South-Eastern Asia"
+        parent="Asia"
+        economicgroup1 ="Developing regions"
+
+    />
+    <unstats_region
+
+        numeric_code="18"
+        name="Southern Africa"
+        parent="Africa"
+
+
+    />
+    <unstats_region
+
+        numeric_code="34"
+        name="Southern Asia"
+        parent="Asia"
+        economicgroup1 ="Developing regions"
+
+    />
+    <unstats_region
+
+        numeric_code="11"
+        name="Western Africa"
+        parent="Africa"
+
+
+    />
+    <unstats_region
+
+        numeric_code="145"
+        name="Western Asia"
+        parent="Asia"
+        economicgroup1 ="Developing regions"
+
+    />
+    <unstats_region
+
+        numeric_code="1"
+        name="World"
+        parent=""
+
+
+    />
+    <unstats_region
+
+        numeric_code="53"
+        name="Australia and New Zealand"
+        parent="Oceania"
+        economicgroup1 ="Developed regions"
+
+    />
+</unstats_countries>
+
+

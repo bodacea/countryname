@@ -1,0 +1,1116 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!--
+This file gives a list of all countries in the UNstats
+standard, and is used to provide translations via gettext
+
+Copyright (C) 2013 Sara-Jayne Farmer <sara@changeassembly.com>
+
+    This file is free software; you can redistribute it and/or
+    modify it under the terms of the GNU Lesser General Public
+    License as published by the Free Software Foundation; either
+    version 2.1 of the License, or (at your option) any later version.
+
+    This file is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+    Lesser General Public License for more details.
+
+    You should have received a copy of the GNU Lesser General Public
+    License along with this file; if not, write to the Free Software
+    Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA
+
+Source: 
+-->
+
+<!DOCTYPE ciafactbook_entries [
+	<!ELEMENT ciafactbook_entries (fips10_entry+)>
+	<!ELEMENT ciafactbook_entry EMPTY>
+	<!ATTLIST ciafactbook_entry
+		alpha_2_code		CDATA	#REQUIRED
+		name			    CDATA	#REQUIRED
+	>
+]>
+
+<ciafactbook_entries>
+    <ciafactbook_entry
+        alpha_2_code="aa"
+        name="Aruba"
+    />
+    <ciafactbook_entry
+        alpha_2_code="ac"
+        name="Antigua and Barbuda"
+    />
+    <ciafactbook_entry
+        alpha_2_code="ae"
+        name="United Arab Emirates"
+    />
+    <ciafactbook_entry
+        alpha_2_code="af"
+        name="Afghanistan"
+    />
+    <ciafactbook_entry
+        alpha_2_code="ag"
+        name="Algeria"
+    />
+    <ciafactbook_entry
+        alpha_2_code="aj"
+        name="Azerbaijan"
+    />
+    <ciafactbook_entry
+        alpha_2_code="al"
+        name="Albania"
+    />
+    <ciafactbook_entry
+        alpha_2_code="am"
+        name="Armenia"
+    />
+    <ciafactbook_entry
+        alpha_2_code="an"
+        name="Andorra"
+    />
+    <ciafactbook_entry
+        alpha_2_code="ao"
+        name="Angola"
+    />
+    <ciafactbook_entry
+        alpha_2_code="aq"
+        name="American Samoa"
+    />
+    <ciafactbook_entry
+        alpha_2_code="ar"
+        name="Argentina"
+    />
+    <ciafactbook_entry
+        alpha_2_code="as"
+        name="Australia"
+    />
+    <ciafactbook_entry
+        alpha_2_code="at"
+        name="Ashmore and Cartier Islands"
+    />
+    <ciafactbook_entry
+        alpha_2_code="au"
+        name="Austria"
+    />
+    <ciafactbook_entry
+        alpha_2_code="av"
+        name="Anguilla"
+    />
+    <ciafactbook_entry
+        alpha_2_code="ax"
+        name="Akrotiri"
+    />
+    <ciafactbook_entry
+        alpha_2_code="ay"
+        name="Antarctica"
+    />
+    <ciafactbook_entry
+        alpha_2_code="ba"
+        name="Bahrain"
+    />
+    <ciafactbook_entry
+        alpha_2_code="bb"
+        name="Barbados"
+    />
+    <ciafactbook_entry
+        alpha_2_code="bc"
+        name="Botswana"
+    />
+    <ciafactbook_entry
+        alpha_2_code="bd"
+        name="Bermuda"
+    />
+    <ciafactbook_entry
+        alpha_2_code="be"
+        name="Belgium"
+    />
+    <ciafactbook_entry
+        alpha_2_code="bf"
+        name="Bahamas, The"
+    />
+    <ciafactbook_entry
+        alpha_2_code="bg"
+        name="Bangladesh"
+    />
+    <ciafactbook_entry
+        alpha_2_code="bh"
+        name="Belize"
+    />
+    <ciafactbook_entry
+        alpha_2_code="bk"
+        name="Bosnia and Herzegovina"
+    />
+    <ciafactbook_entry
+        alpha_2_code="bl"
+        name="Bolivia"
+    />
+    <ciafactbook_entry
+        alpha_2_code="bm"
+        name="Burma"
+    />
+    <ciafactbook_entry
+        alpha_2_code="bn"
+        name="Benin"
+    />
+    <ciafactbook_entry
+        alpha_2_code="bo"
+        name="Belarus"
+    />
+    <ciafactbook_entry
+        alpha_2_code="bp"
+        name="Solomon Islands"
+    />
+    <ciafactbook_entry
+        alpha_2_code="bq"
+        name="Navassa Island"
+    />
+    <ciafactbook_entry
+        alpha_2_code="br"
+        name="Brazil"
+    />
+    <ciafactbook_entry
+        alpha_2_code="bt"
+        name="Bhutan"
+    />
+    <ciafactbook_entry
+        alpha_2_code="bu"
+        name="Bulgaria"
+    />
+    <ciafactbook_entry
+        alpha_2_code="bv"
+        name="Bouvet Island"
+    />
+    <ciafactbook_entry
+        alpha_2_code="bx"
+        name="Brunei"
+    />
+    <ciafactbook_entry
+        alpha_2_code="by"
+        name="Burundi"
+    />
+    <ciafactbook_entry
+        alpha_2_code="ca"
+        name="Canada"
+    />
+    <ciafactbook_entry
+        alpha_2_code="cb"
+        name="Cambodia"
+    />
+    <ciafactbook_entry
+        alpha_2_code="cc"
+        name="Curacao"
+    />
+    <ciafactbook_entry
+        alpha_2_code="cd"
+        name="Chad"
+    />
+    <ciafactbook_entry
+        alpha_2_code="ce"
+        name="Sri Lanka"
+    />
+    <ciafactbook_entry
+        alpha_2_code="cf"
+        name="Congo, Republic of the"
+    />
+    <ciafactbook_entry
+        alpha_2_code="cg"
+        name="Congo, Democratic Republic of the"
+    />
+    <ciafactbook_entry
+        alpha_2_code="ch"
+        name="China"
+    />
+    <ciafactbook_entry
+        alpha_2_code="ci"
+        name="Chile"
+    />
+    <ciafactbook_entry
+        alpha_2_code="cj"
+        name="Cayman Islands"
+    />
+    <ciafactbook_entry
+        alpha_2_code="ck"
+        name="Cocos (Keeling) Islands"
+    />
+    <ciafactbook_entry
+        alpha_2_code="cm"
+        name="Cameroon"
+    />
+    <ciafactbook_entry
+        alpha_2_code="cn"
+        name="Comoros"
+    />
+    <ciafactbook_entry
+        alpha_2_code="co"
+        name="Colombia"
+    />
+    <ciafactbook_entry
+        alpha_2_code="cq"
+        name="Northern Mariana Islands"
+    />
+    <ciafactbook_entry
+        alpha_2_code="cr"
+        name="Coral Sea Islands"
+    />
+    <ciafactbook_entry
+        alpha_2_code="cs"
+        name="Costa Rica"
+    />
+    <ciafactbook_entry
+        alpha_2_code="ct"
+        name="Central African Republic"
+    />
+    <ciafactbook_entry
+        alpha_2_code="cu"
+        name="Cuba"
+    />
+    <ciafactbook_entry
+        alpha_2_code="cv"
+        name="Cape Verde"
+    />
+    <ciafactbook_entry
+        alpha_2_code="cw"
+        name="Cook Islands"
+    />
+    <ciafactbook_entry
+        alpha_2_code="cy"
+        name="Cyprus"
+    />
+    <ciafactbook_entry
+        alpha_2_code="da"
+        name="Denmark"
+    />
+    <ciafactbook_entry
+        alpha_2_code="dj"
+        name="Djibouti"
+    />
+    <ciafactbook_entry
+        alpha_2_code="do"
+        name="Dominica"
+    />
+    <ciafactbook_entry
+        alpha_2_code="dr"
+        name="Dominican Republic"
+    />
+    <ciafactbook_entry
+        alpha_2_code="dx"
+        name="Dhekelia"
+    />
+    <ciafactbook_entry
+        alpha_2_code="ec"
+        name="Ecuador"
+    />
+    <ciafactbook_entry
+        alpha_2_code="ee"
+        name="European Union"
+    />
+    <ciafactbook_entry
+        alpha_2_code="eg"
+        name="Egypt"
+    />
+    <ciafactbook_entry
+        alpha_2_code="ei"
+        name="Ireland"
+    />
+    <ciafactbook_entry
+        alpha_2_code="ek"
+        name="Equatorial Guinea"
+    />
+    <ciafactbook_entry
+        alpha_2_code="en"
+        name="Estonia"
+    />
+    <ciafactbook_entry
+        alpha_2_code="er"
+        name="Eritrea"
+    />
+    <ciafactbook_entry
+        alpha_2_code="es"
+        name="El Salvador"
+    />
+    <ciafactbook_entry
+        alpha_2_code="et"
+        name="Ethiopia"
+    />
+    <ciafactbook_entry
+        alpha_2_code="ez"
+        name="Czech Republic"
+    />
+    <ciafactbook_entry
+        alpha_2_code="fi"
+        name="Finland"
+    />
+    <ciafactbook_entry
+        alpha_2_code="fj"
+        name="Fiji"
+    />
+    <ciafactbook_entry
+        alpha_2_code="fk"
+        name="Falkland Islands (Islas Malvinas)"
+    />
+    <ciafactbook_entry
+        alpha_2_code="fm"
+        name="Micronesia, Federated States of"
+    />
+    <ciafactbook_entry
+        alpha_2_code="fo"
+        name="Faroe Islands"
+    />
+    <ciafactbook_entry
+        alpha_2_code="fp"
+        name="French Polynesia"
+    />
+    <ciafactbook_entry
+        alpha_2_code="fr"
+        name="France"
+    />
+    <ciafactbook_entry
+        alpha_2_code="fs"
+        name="French Southern and Antarctic Lands"
+    />
+    <ciafactbook_entry
+        alpha_2_code="ga"
+        name="Gambia, The"
+    />
+    <ciafactbook_entry
+        alpha_2_code="gb"
+        name="Gabon"
+    />
+    <ciafactbook_entry
+        alpha_2_code="gg"
+        name="Georgia"
+    />
+    <ciafactbook_entry
+        alpha_2_code="gh"
+        name="Ghana"
+    />
+    <ciafactbook_entry
+        alpha_2_code="gi"
+        name="Gibraltar"
+    />
+    <ciafactbook_entry
+        alpha_2_code="gj"
+        name="Grenada"
+    />
+    <ciafactbook_entry
+        alpha_2_code="gk"
+        name="Guernsey"
+    />
+    <ciafactbook_entry
+        alpha_2_code="gl"
+        name="Greenland"
+    />
+    <ciafactbook_entry
+        alpha_2_code="gm"
+        name="Germany"
+    />
+    <ciafactbook_entry
+        alpha_2_code="gq"
+        name="Guam"
+    />
+    <ciafactbook_entry
+        alpha_2_code="gr"
+        name="Greece"
+    />
+    <ciafactbook_entry
+        alpha_2_code="gt"
+        name="Guatemala"
+    />
+    <ciafactbook_entry
+        alpha_2_code="gv"
+        name="Guinea"
+    />
+    <ciafactbook_entry
+        alpha_2_code="gy"
+        name="Guyana"
+    />
+    <ciafactbook_entry
+        alpha_2_code="gz"
+        name="Gaza Strip"
+    />
+    <ciafactbook_entry
+        alpha_2_code="ha"
+        name="Haiti"
+    />
+    <ciafactbook_entry
+        alpha_2_code="hk"
+        name="Hong Kong"
+    />
+    <ciafactbook_entry
+        alpha_2_code="hm"
+        name="Heard Island and McDonald Islands"
+    />
+    <ciafactbook_entry
+        alpha_2_code="ho"
+        name="Honduras"
+    />
+    <ciafactbook_entry
+        alpha_2_code="hr"
+        name="Croatia"
+    />
+    <ciafactbook_entry
+        alpha_2_code="hu"
+        name="Hungary"
+    />
+    <ciafactbook_entry
+        alpha_2_code="ic"
+        name="Iceland"
+    />
+    <ciafactbook_entry
+        alpha_2_code="id"
+        name="Indonesia"
+    />
+    <ciafactbook_entry
+        alpha_2_code="im"
+        name="Isle of Man"
+    />
+    <ciafactbook_entry
+        alpha_2_code="in"
+        name="India"
+    />
+    <ciafactbook_entry
+        alpha_2_code="io"
+        name="British Indian Ocean Territory"
+    />
+    <ciafactbook_entry
+        alpha_2_code="ip"
+        name="Clipperton Island"
+    />
+    <ciafactbook_entry
+        alpha_2_code="ir"
+        name="Iran"
+    />
+    <ciafactbook_entry
+        alpha_2_code="is"
+        name="Israel"
+    />
+    <ciafactbook_entry
+        alpha_2_code="it"
+        name="Italy"
+    />
+    <ciafactbook_entry
+        alpha_2_code="iv"
+        name="Cote d'Ivoire"
+    />
+    <ciafactbook_entry
+        alpha_2_code="iz"
+        name="Iraq"
+    />
+    <ciafactbook_entry
+        alpha_2_code="ja"
+        name="Japan"
+    />
+    <ciafactbook_entry
+        alpha_2_code="je"
+        name="Jersey"
+    />
+    <ciafactbook_entry
+        alpha_2_code="jm"
+        name="Jamaica"
+    />
+    <ciafactbook_entry
+        alpha_2_code="jn"
+        name="Jan Mayen"
+    />
+    <ciafactbook_entry
+        alpha_2_code="jo"
+        name="Jordan"
+    />
+    <ciafactbook_entry
+        alpha_2_code="ke"
+        name="Kenya"
+    />
+    <ciafactbook_entry
+        alpha_2_code="kg"
+        name="Kyrgyzstan"
+    />
+    <ciafactbook_entry
+        alpha_2_code="kn"
+        name="Korea, North"
+    />
+    <ciafactbook_entry
+        alpha_2_code="kr"
+        name="Kiribati"
+    />
+    <ciafactbook_entry
+        alpha_2_code="ks"
+        name="Korea, South"
+    />
+    <ciafactbook_entry
+        alpha_2_code="kt"
+        name="Christmas Island"
+    />
+    <ciafactbook_entry
+        alpha_2_code="ku"
+        name="Kuwait"
+    />
+    <ciafactbook_entry
+        alpha_2_code="kv"
+        name="Kosovo"
+    />
+    <ciafactbook_entry
+        alpha_2_code="kz"
+        name="Kazakhstan"
+    />
+    <ciafactbook_entry
+        alpha_2_code="la"
+        name="Laos"
+    />
+    <ciafactbook_entry
+        alpha_2_code="le"
+        name="Lebanon"
+    />
+    <ciafactbook_entry
+        alpha_2_code="lg"
+        name="Latvia"
+    />
+    <ciafactbook_entry
+        alpha_2_code="lh"
+        name="Lithuania"
+    />
+    <ciafactbook_entry
+        alpha_2_code="li"
+        name="Liberia"
+    />
+    <ciafactbook_entry
+        alpha_2_code="lo"
+        name="Slovakia"
+    />
+    <ciafactbook_entry
+        alpha_2_code="ls"
+        name="Liechtenstein"
+    />
+    <ciafactbook_entry
+        alpha_2_code="lt"
+        name="Lesotho"
+    />
+    <ciafactbook_entry
+        alpha_2_code="lu"
+        name="Luxembourg"
+    />
+    <ciafactbook_entry
+        alpha_2_code="ly"
+        name="Libya"
+    />
+    <ciafactbook_entry
+        alpha_2_code="ma"
+        name="Madagascar"
+    />
+    <ciafactbook_entry
+        alpha_2_code="mc"
+        name="Macau"
+    />
+    <ciafactbook_entry
+        alpha_2_code="md"
+        name="Moldova"
+    />
+    <ciafactbook_entry
+        alpha_2_code="mg"
+        name="Mongolia"
+    />
+    <ciafactbook_entry
+        alpha_2_code="mh"
+        name="Montserrat"
+    />
+    <ciafactbook_entry
+        alpha_2_code="mi"
+        name="Malawi"
+    />
+    <ciafactbook_entry
+        alpha_2_code="mj"
+        name="Montenegro"
+    />
+    <ciafactbook_entry
+        alpha_2_code="mk"
+        name="Macedonia"
+    />
+    <ciafactbook_entry
+        alpha_2_code="ml"
+        name="Mali"
+    />
+    <ciafactbook_entry
+        alpha_2_code="mn"
+        name="Monaco"
+    />
+    <ciafactbook_entry
+        alpha_2_code="mo"
+        name="Morocco"
+    />
+    <ciafactbook_entry
+        alpha_2_code="mp"
+        name="Mauritius"
+    />
+    <ciafactbook_entry
+        alpha_2_code="mr"
+        name="Mauritania"
+    />
+    <ciafactbook_entry
+        alpha_2_code="mt"
+        name="Malta"
+    />
+    <ciafactbook_entry
+        alpha_2_code="mu"
+        name="Oman"
+    />
+    <ciafactbook_entry
+        alpha_2_code="mv"
+        name="Maldives"
+    />
+    <ciafactbook_entry
+        alpha_2_code="mx"
+        name="Mexico"
+    />
+    <ciafactbook_entry
+        alpha_2_code="my"
+        name="Malaysia"
+    />
+    <ciafactbook_entry
+        alpha_2_code="mz"
+        name="Mozambique"
+    />
+    <ciafactbook_entry
+        alpha_2_code="nc"
+        name="New Caledonia"
+    />
+    <ciafactbook_entry
+        alpha_2_code="ne"
+        name="Niue"
+    />
+    <ciafactbook_entry
+        alpha_2_code="nf"
+        name="Norfolk Island"
+    />
+    <ciafactbook_entry
+        alpha_2_code="ng"
+        name="Niger"
+    />
+    <ciafactbook_entry
+        alpha_2_code="nh"
+        name="Vanuatu"
+    />
+    <ciafactbook_entry
+        alpha_2_code="ni"
+        name="Nigeria"
+    />
+    <ciafactbook_entry
+        alpha_2_code="nl"
+        name="Netherlands"
+    />
+    <ciafactbook_entry
+        alpha_2_code="no"
+        name="Norway"
+    />
+    <ciafactbook_entry
+        alpha_2_code="np"
+        name="Nepal"
+    />
+    <ciafactbook_entry
+        alpha_2_code="nr"
+        name="Nauru"
+    />
+    <ciafactbook_entry
+        alpha_2_code="ns"
+        name="Suriname"
+    />
+    <ciafactbook_entry
+        alpha_2_code="nu"
+        name="Nicaragua"
+    />
+    <ciafactbook_entry
+        alpha_2_code="nz"
+        name="New Zealand"
+    />
+    <ciafactbook_entry
+        alpha_2_code="od"
+        name="South Sudan"
+    />
+    <ciafactbook_entry
+        alpha_2_code="oo"
+        name="Southern Ocean"
+    />
+    <ciafactbook_entry
+        alpha_2_code="pa"
+        name="Paraguay"
+    />
+    <ciafactbook_entry
+        alpha_2_code="pc"
+        name="Pitcairn Islands"
+    />
+    <ciafactbook_entry
+        alpha_2_code="pe"
+        name="Peru"
+    />
+    <ciafactbook_entry
+        alpha_2_code="pf"
+        name="Paracel Islands"
+    />
+    <ciafactbook_entry
+        alpha_2_code="pg"
+        name="Spratly Islands"
+    />
+    <ciafactbook_entry
+        alpha_2_code="pk"
+        name="Pakistan"
+    />
+    <ciafactbook_entry
+        alpha_2_code="pl"
+        name="Poland"
+    />
+    <ciafactbook_entry
+        alpha_2_code="pm"
+        name="Panama"
+    />
+    <ciafactbook_entry
+        alpha_2_code="po"
+        name="Portugal"
+    />
+    <ciafactbook_entry
+        alpha_2_code="pp"
+        name="Papua New Guinea"
+    />
+    <ciafactbook_entry
+        alpha_2_code="ps"
+        name="Palau"
+    />
+    <ciafactbook_entry
+        alpha_2_code="pu"
+        name="Guinea-Bissau"
+    />
+    <ciafactbook_entry
+        alpha_2_code="qa"
+        name="Qatar"
+    />
+    <ciafactbook_entry
+        alpha_2_code="ri"
+        name="Serbia"
+    />
+    <ciafactbook_entry
+        alpha_2_code="rm"
+        name="Marshall Islands"
+    />
+    <ciafactbook_entry
+        alpha_2_code="rn"
+        name="Saint Martin"
+    />
+    <ciafactbook_entry
+        alpha_2_code="ro"
+        name="Romania"
+    />
+    <ciafactbook_entry
+        alpha_2_code="rp"
+        name="Philippines"
+    />
+    <ciafactbook_entry
+        alpha_2_code="rq"
+        name="Puerto Rico"
+    />
+    <ciafactbook_entry
+        alpha_2_code="rs"
+        name="Russia"
+    />
+    <ciafactbook_entry
+        alpha_2_code="rw"
+        name="Rwanda"
+    />
+    <ciafactbook_entry
+        alpha_2_code="sa"
+        name="Saudi Arabia"
+    />
+    <ciafactbook_entry
+        alpha_2_code="sb"
+        name="Saint Pierre and Miquelon"
+    />
+    <ciafactbook_entry
+        alpha_2_code="sc"
+        name="Saint Kitts and Nevis"
+    />
+    <ciafactbook_entry
+        alpha_2_code="se"
+        name="Seychelles"
+    />
+    <ciafactbook_entry
+        alpha_2_code="sf"
+        name="South Africa"
+    />
+    <ciafactbook_entry
+        alpha_2_code="sg"
+        name="Senegal"
+    />
+    <ciafactbook_entry
+        alpha_2_code="sh"
+        name="Saint Helena, Ascension, and Tristan da Cunha"
+    />
+    <ciafactbook_entry
+        alpha_2_code="si"
+        name="Slovenia"
+    />
+    <ciafactbook_entry
+        alpha_2_code="sk"
+        name="Sint Maarten"
+    />
+    <ciafactbook_entry
+        alpha_2_code="sl"
+        name="Sierra Leone"
+    />
+    <ciafactbook_entry
+        alpha_2_code="sm"
+        name="San Marino"
+    />
+    <ciafactbook_entry
+        alpha_2_code="sn"
+        name="Singapore"
+    />
+    <ciafactbook_entry
+        alpha_2_code="so"
+        name="Somalia"
+    />
+    <ciafactbook_entry
+        alpha_2_code="sp"
+        name="Spain"
+    />
+    <ciafactbook_entry
+        alpha_2_code="st"
+        name="Saint Lucia"
+    />
+    <ciafactbook_entry
+        alpha_2_code="su"
+        name="Sudan"
+    />
+    <ciafactbook_entry
+        alpha_2_code="sv"
+        name="Svalbard"
+    />
+    <ciafactbook_entry
+        alpha_2_code="sw"
+        name="Sweden"
+    />
+    <ciafactbook_entry
+        alpha_2_code="sx"
+        name="South Georgia and South Sandwich Islands"
+    />
+    <ciafactbook_entry
+        alpha_2_code="sy"
+        name="Syria"
+    />
+    <ciafactbook_entry
+        alpha_2_code="sz"
+        name="Switzerland"
+    />
+    <ciafactbook_entry
+        alpha_2_code="tb"
+        name="Saint Barthelemy"
+    />
+    <ciafactbook_entry
+        alpha_2_code="td"
+        name="Trinidad and Tobago"
+    />
+    <ciafactbook_entry
+        alpha_2_code="th"
+        name="Thailand"
+    />
+    <ciafactbook_entry
+        alpha_2_code="ti"
+        name="Tajikistan"
+    />
+    <ciafactbook_entry
+        alpha_2_code="tk"
+        name="Turks and Caicos Islands"
+    />
+    <ciafactbook_entry
+        alpha_2_code="tl"
+        name="Tokelau"
+    />
+    <ciafactbook_entry
+        alpha_2_code="tn"
+        name="Tonga"
+    />
+    <ciafactbook_entry
+        alpha_2_code="to"
+        name="Togo"
+    />
+    <ciafactbook_entry
+        alpha_2_code="tp"
+        name="Sao Tome and Principe"
+    />
+    <ciafactbook_entry
+        alpha_2_code="ts"
+        name="Tunisia"
+    />
+    <ciafactbook_entry
+        alpha_2_code="tt"
+        name="Timor-Leste"
+    />
+    <ciafactbook_entry
+        alpha_2_code="tu"
+        name="Turkey"
+    />
+    <ciafactbook_entry
+        alpha_2_code="tv"
+        name="Tuvalu"
+    />
+    <ciafactbook_entry
+        alpha_2_code="tw"
+        name="Taiwan"
+    />
+    <ciafactbook_entry
+        alpha_2_code="tx"
+        name="Turkmenistan"
+    />
+    <ciafactbook_entry
+        alpha_2_code="tz"
+        name="Tanzania"
+    />
+    <ciafactbook_entry
+        alpha_2_code="ug"
+        name="Uganda"
+    />
+    <ciafactbook_entry
+        alpha_2_code="uk"
+        name="United Kingdom"
+    />
+    <ciafactbook_entry
+        alpha_2_code="um"
+        name="Baker Island"
+    />
+    <ciafactbook_entry
+        alpha_2_code="um"
+        name="Howland Island"
+    />
+    <ciafactbook_entry
+        alpha_2_code="um"
+        name="Jarvis Island"
+    />
+    <ciafactbook_entry
+        alpha_2_code="um"
+        name="Johnston Atoll"
+    />
+    <ciafactbook_entry
+        alpha_2_code="um"
+        name="Kingman Reef"
+    />
+    <ciafactbook_entry
+        alpha_2_code="um"
+        name="Midway Islands"
+    />
+    <ciafactbook_entry
+        alpha_2_code="um"
+        name="Palmyra Atoll"
+    />
+    <ciafactbook_entry
+        alpha_2_code="um"
+        name="United States Pacific Island Wildlife Refuges"
+    />
+    <ciafactbook_entry
+        alpha_2_code="up"
+        name="Ukraine"
+    />
+    <ciafactbook_entry
+        alpha_2_code="us"
+        name="United States"
+    />
+    <ciafactbook_entry
+        alpha_2_code="uv"
+        name="Burkina Faso"
+    />
+    <ciafactbook_entry
+        alpha_2_code="uy"
+        name="Uruguay"
+    />
+    <ciafactbook_entry
+        alpha_2_code="uz"
+        name="Uzbekistan"
+    />
+    <ciafactbook_entry
+        alpha_2_code="vc"
+        name="Saint Vincent and the Grenadines"
+    />
+    <ciafactbook_entry
+        alpha_2_code="ve"
+        name="Venezuela"
+    />
+    <ciafactbook_entry
+        alpha_2_code="vi"
+        name="British Virgin Islands"
+    />
+    <ciafactbook_entry
+        alpha_2_code="vm"
+        name="Vietnam"
+    />
+    <ciafactbook_entry
+        alpha_2_code="vq"
+        name="Virgin Islands"
+    />
+    <ciafactbook_entry
+        alpha_2_code="vt"
+        name="Holy See (Vatican City)"
+    />
+    <ciafactbook_entry
+        alpha_2_code="vt"
+        name="Vatican City"
+    />
+    <ciafactbook_entry
+        alpha_2_code="wa"
+        name="Namibia"
+    />
+    <ciafactbook_entry
+        alpha_2_code="we"
+        name="West Bank"
+    />
+    <ciafactbook_entry
+        alpha_2_code="wf"
+        name="Wallis and Futuna"
+    />
+    <ciafactbook_entry
+        alpha_2_code="wi"
+        name="Western Sahara"
+    />
+    <ciafactbook_entry
+        alpha_2_code="wq"
+        name="Wake Island"
+    />
+    <ciafactbook_entry
+        alpha_2_code="ws"
+        name="Samoa"
+    />
+    <ciafactbook_entry
+        alpha_2_code="wz"
+        name="Swaziland"
+    />
+    <ciafactbook_entry
+        alpha_2_code="xo"
+        name="Indian Ocean"
+    />
+    <ciafactbook_entry
+        alpha_2_code="xq"
+        name="Arctic Ocean"
+    />
+    <ciafactbook_entry
+        alpha_2_code="xx"
+        name="World"
+    />
+    <ciafactbook_entry
+        alpha_2_code="ym"
+        name="Yemen"
+    />
+    <ciafactbook_entry
+        alpha_2_code="za"
+        name="Zambia"
+    />
+    <ciafactbook_entry
+        alpha_2_code="zh"
+        name="Atlantic Ocean"
+    />
+    <ciafactbook_entry
+        alpha_2_code="zi"
+        name="Zimbabwe"
+    />
+    <ciafactbook_entry
+        alpha_2_code="zn"
+        name="Pacific Ocean"
+    />
+    <ciafactbook_entry
+        alpha_2_code=""
+        name=""
+    />
+</ciafactbook_entries>

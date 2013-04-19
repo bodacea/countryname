@@ -1,0 +1,1056 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!--
+This file gives a list of all countries in the UNstats
+standard, and is used to provide translations via gettext
+
+Copyright (C) 2013 Sara-Jayne Farmer <sara@changeassembly.com>
+
+    This file is free software; you can redistribute it and/or
+    modify it under the terms of the GNU Lesser General Public
+    License as published by the Free Software Foundation; either
+    version 2.1 of the License, or (at your option) any later version.
+
+    This file is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+    Lesser General Public License for more details.
+
+    You should have received a copy of the GNU Lesser General Public
+    License along with this file; if not, write to the Free Software
+    Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA
+
+Source: 
+-->
+
+<!DOCTYPE stanag_entries [
+	<!ELEMENT stanag_entries (stanag_entry+)>
+	<!ELEMENT stanag_entry EMPTY>
+	<!ATTLIST stanag_entry
+		name			    CDATA	#REQUIRED
+		alpha_3_code        CDATA	#REQUIRED
+	>
+]>
+
+<stanag_entries>
+    <stanag_entry
+        alpha_3_code="ABW"
+        name="Aruba "
+    />
+    <stanag_entry
+        alpha_3_code="AFG"
+        name="Afghanistan "
+    />
+    <stanag_entry
+        alpha_3_code="AGO"
+        name="Angola "
+    />
+    <stanag_entry
+        alpha_3_code="AIA"
+        name="Anguilla "
+    />
+    <stanag_entry
+        alpha_3_code="ALB"
+        name="Albania "
+    />
+    <stanag_entry
+        alpha_3_code="AND"
+        name="Andorra "
+    />
+    <stanag_entry
+        alpha_3_code="ANT"
+        name="Netherlands Antilles "
+    />
+    <stanag_entry
+        alpha_3_code="ARE"
+        name="United Arab Emirates "
+    />
+    <stanag_entry
+        alpha_3_code="ARG"
+        name="Argentina "
+    />
+    <stanag_entry
+        alpha_3_code="ARM"
+        name="Armenia "
+    />
+    <stanag_entry
+        alpha_3_code="ASM"
+        name="American Samoa "
+    />
+    <stanag_entry
+        alpha_3_code="ATA"
+        name="Antarctica "
+    />
+    <stanag_entry
+        alpha_3_code="ATF"
+        name="French Southern and Antarctic Lands "
+    />
+    <stanag_entry
+        alpha_3_code="ATG"
+        name="Antigua and Barbuda "
+    />
+    <stanag_entry
+        alpha_3_code="AUS"
+        name="Ashmore and Cartier Islands "
+    />
+    <stanag_entry
+        alpha_3_code="AUS"
+        name="Coral Sea Islands "
+    />
+    <stanag_entry
+        alpha_3_code="AUS"
+        name="Australia "
+    />
+    <stanag_entry
+        alpha_3_code="AUS"
+        name="Cocos (Keeling) Islands "
+    />
+    <stanag_entry
+        alpha_3_code="AUT"
+        name="Austria "
+    />
+    <stanag_entry
+        alpha_3_code="AZE"
+        name="Azerbaijan "
+    />
+    <stanag_entry
+        alpha_3_code="BDI"
+        name="Burundi "
+    />
+    <stanag_entry
+        alpha_3_code="BEL"
+        name="Belgium "
+    />
+    <stanag_entry
+        alpha_3_code="BEN"
+        name="Benin "
+    />
+    <stanag_entry
+        alpha_3_code="BFA"
+        name="Burkina Faso "
+    />
+    <stanag_entry
+        alpha_3_code="BGD"
+        name="Bangladesh "
+    />
+    <stanag_entry
+        alpha_3_code="BGR"
+        name="Bulgaria "
+    />
+    <stanag_entry
+        alpha_3_code="BHR"
+        name="Bahrain "
+    />
+    <stanag_entry
+        alpha_3_code="BHS"
+        name="Bahamas, The "
+    />
+    <stanag_entry
+        alpha_3_code="BIH"
+        name="Bosnia and Herzegovina "
+    />
+    <stanag_entry
+        alpha_3_code="BLR"
+        name="Belarus "
+    />
+    <stanag_entry
+        alpha_3_code="BLZ"
+        name="Belize "
+    />
+    <stanag_entry
+        alpha_3_code="BMU"
+        name="Bermuda "
+    />
+    <stanag_entry
+        alpha_3_code="BOL"
+        name="Bolivia "
+    />
+    <stanag_entry
+        alpha_3_code="BRA"
+        name="Brazil "
+    />
+    <stanag_entry
+        alpha_3_code="BRB"
+        name="Barbados "
+    />
+    <stanag_entry
+        alpha_3_code="BRN"
+        name="Brunei "
+    />
+    <stanag_entry
+        alpha_3_code="BTN"
+        name="Bhutan "
+    />
+    <stanag_entry
+        alpha_3_code="BVT"
+        name="Bouvet Island "
+    />
+    <stanag_entry
+        alpha_3_code="BWA"
+        name="Botswana "
+    />
+    <stanag_entry
+        alpha_3_code="CAF"
+        name="Central African Republic "
+    />
+    <stanag_entry
+        alpha_3_code="CAN"
+        name="Canada "
+    />
+    <stanag_entry
+        alpha_3_code="CHE"
+        name="Switzerland "
+    />
+    <stanag_entry
+        alpha_3_code="CHL"
+        name="Chile "
+    />
+    <stanag_entry
+        alpha_3_code="CHN"
+        name="China "
+    />
+    <stanag_entry
+        alpha_3_code="CIV"
+        name="Cote d'Ivoire "
+    />
+    <stanag_entry
+        alpha_3_code="CMR"
+        name="Cameroon "
+    />
+    <stanag_entry
+        alpha_3_code="COD"
+        name="Congo, Democratic Republic of the "
+    />
+    <stanag_entry
+        alpha_3_code="COG"
+        name="Congo, Republic of the "
+    />
+    <stanag_entry
+        alpha_3_code="COK"
+        name="Cook Islands "
+    />
+    <stanag_entry
+        alpha_3_code="COL"
+        name="Colombia "
+    />
+    <stanag_entry
+        alpha_3_code="COM"
+        name="Comoros "
+    />
+    <stanag_entry
+        alpha_3_code="CPV"
+        name="Cape Verde "
+    />
+    <stanag_entry
+        alpha_3_code="CRI"
+        name="Costa Rica "
+    />
+    <stanag_entry
+        alpha_3_code="CUB"
+        name="Cuba "
+    />
+    <stanag_entry
+        alpha_3_code="CXR"
+        name="Christmas Island "
+    />
+    <stanag_entry
+        alpha_3_code="CYM"
+        name="Cayman Islands "
+    />
+    <stanag_entry
+        alpha_3_code="CYP"
+        name="Cyprus "
+    />
+    <stanag_entry
+        alpha_3_code="CZE"
+        name="Czech Republic "
+    />
+    <stanag_entry
+        alpha_3_code="DEU"
+        name="Germany "
+    />
+    <stanag_entry
+        alpha_3_code="DJI"
+        name="Djibouti "
+    />
+    <stanag_entry
+        alpha_3_code="DMA"
+        name="Dominica "
+    />
+    <stanag_entry
+        alpha_3_code="DNK"
+        name="Denmark "
+    />
+    <stanag_entry
+        alpha_3_code="DOM"
+        name="Dominican Republic "
+    />
+    <stanag_entry
+        alpha_3_code="DZA"
+        name="Algeria "
+    />
+    <stanag_entry
+        alpha_3_code="ECU"
+        name="Ecuador "
+    />
+    <stanag_entry
+        alpha_3_code="EGY"
+        name="Egypt "
+    />
+    <stanag_entry
+        alpha_3_code="ERI"
+        name="Eritrea "
+    />
+    <stanag_entry
+        alpha_3_code="ESH"
+        name="Western Sahara "
+    />
+    <stanag_entry
+        alpha_3_code="ESP"
+        name="Spain "
+    />
+    <stanag_entry
+        alpha_3_code="EST"
+        name="Estonia "
+    />
+    <stanag_entry
+        alpha_3_code="ETH"
+        name="Ethiopia "
+    />
+    <stanag_entry
+        alpha_3_code="FIN"
+        name="Finland "
+    />
+    <stanag_entry
+        alpha_3_code="FJI"
+        name="Fiji "
+    />
+    <stanag_entry
+        alpha_3_code="FLK"
+        name="Falkland Islands (Islas Malvinas) "
+    />
+    <stanag_entry
+        alpha_3_code="FRA"
+        name="France "
+    />
+    <stanag_entry
+        alpha_3_code="FRA"
+        name="Mayotte "
+    />
+    <stanag_entry
+        alpha_3_code="FRO"
+        name="Faroe Islands "
+    />
+    <stanag_entry
+        alpha_3_code="FSM"
+        name="Micronesia, Federated States of "
+    />
+    <stanag_entry
+        alpha_3_code="FYP"
+        name="Clipperton Island "
+    />
+    <stanag_entry
+        alpha_3_code="FYR"
+        name="Macedonia "
+    />
+    <stanag_entry
+        alpha_3_code="GAB"
+        name="Gabon "
+    />
+    <stanag_entry
+        alpha_3_code="GBR"
+        name="United Kingdom "
+    />
+    <stanag_entry
+        alpha_3_code="GEO"
+        name="Georgia "
+    />
+    <stanag_entry
+        alpha_3_code="GHA"
+        name="Ghana "
+    />
+    <stanag_entry
+        alpha_3_code="GIB"
+        name="Gibraltar "
+    />
+    <stanag_entry
+        alpha_3_code="GIN"
+        name="Guinea "
+    />
+    <stanag_entry
+        alpha_3_code="GLP"
+        name="Guadeloupe "
+    />
+    <stanag_entry
+        alpha_3_code="GMB"
+        name="Gambia, The "
+    />
+    <stanag_entry
+        alpha_3_code="GNB"
+        name="Guinea-Bissau "
+    />
+    <stanag_entry
+        alpha_3_code="GNQ"
+        name="Equatorial Guinea "
+    />
+    <stanag_entry
+        alpha_3_code="GRC"
+        name="Greece "
+    />
+    <stanag_entry
+        alpha_3_code="GRD"
+        name="Grenada "
+    />
+    <stanag_entry
+        alpha_3_code="GRL"
+        name="Greenland "
+    />
+    <stanag_entry
+        alpha_3_code="GTM"
+        name="Guatemala "
+    />
+    <stanag_entry
+        alpha_3_code="GUF"
+        name="French Guiana "
+    />
+    <stanag_entry
+        alpha_3_code="GUM"
+        name="Guam "
+    />
+    <stanag_entry
+        alpha_3_code="GUY"
+        name="Guyana "
+    />
+    <stanag_entry
+        alpha_3_code="HKG"
+        name="Hong Kong "
+    />
+    <stanag_entry
+        alpha_3_code="HMD"
+        name="Heard Island and McDonald Islands "
+    />
+    <stanag_entry
+        alpha_3_code="HND"
+        name="Honduras "
+    />
+    <stanag_entry
+        alpha_3_code="HRV"
+        name="Croatia "
+    />
+    <stanag_entry
+        alpha_3_code="HTI"
+        name="Haiti "
+    />
+    <stanag_entry
+        alpha_3_code="HUN"
+        name="Hungary "
+    />
+    <stanag_entry
+        alpha_3_code="IDN"
+        name="Indonesia "
+    />
+    <stanag_entry
+        alpha_3_code="IND"
+        name="India "
+    />
+    <stanag_entry
+        alpha_3_code="IOT"
+        name="British Indian Ocean Territory "
+    />
+    <stanag_entry
+        alpha_3_code="IRL"
+        name="Ireland "
+    />
+    <stanag_entry
+        alpha_3_code="IRN"
+        name="Iran "
+    />
+    <stanag_entry
+        alpha_3_code="IRQ"
+        name="Iraq "
+    />
+    <stanag_entry
+        alpha_3_code="ISL"
+        name="Iceland "
+    />
+    <stanag_entry
+        alpha_3_code="ISR"
+        name="Israel "
+    />
+    <stanag_entry
+        alpha_3_code="ITA"
+        name="Italy "
+    />
+    <stanag_entry
+        alpha_3_code="JAM"
+        name="Jamaica "
+    />
+    <stanag_entry
+        alpha_3_code="JOR"
+        name="Jordan "
+    />
+    <stanag_entry
+        alpha_3_code="JPN"
+        name="Japan "
+    />
+    <stanag_entry
+        alpha_3_code="KAZ"
+        name="Kazakhstan "
+    />
+    <stanag_entry
+        alpha_3_code="KEN"
+        name="Kenya "
+    />
+    <stanag_entry
+        alpha_3_code="KGZ"
+        name="Kyrgyzstan "
+    />
+    <stanag_entry
+        alpha_3_code="KHM"
+        name="Cambodia "
+    />
+    <stanag_entry
+        alpha_3_code="KIR"
+        name="Kiribati "
+    />
+    <stanag_entry
+        alpha_3_code="KNA"
+        name="Saint Kitts and Nevis "
+    />
+    <stanag_entry
+        alpha_3_code="KOR"
+        name="Korea, South "
+    />
+    <stanag_entry
+        alpha_3_code="KWT"
+        name="Kuwait "
+    />
+    <stanag_entry
+        alpha_3_code="LAO"
+        name="Laos "
+    />
+    <stanag_entry
+        alpha_3_code="LBN"
+        name="Lebanon "
+    />
+    <stanag_entry
+        alpha_3_code="LBR"
+        name="Liberia "
+    />
+    <stanag_entry
+        alpha_3_code="LBY"
+        name="Libya "
+    />
+    <stanag_entry
+        alpha_3_code="LCA"
+        name="Saint Lucia "
+    />
+    <stanag_entry
+        alpha_3_code="LIE"
+        name="Liechtenstein "
+    />
+    <stanag_entry
+        alpha_3_code="LKA"
+        name="Sri Lanka "
+    />
+    <stanag_entry
+        alpha_3_code="LSO"
+        name="Lesotho "
+    />
+    <stanag_entry
+        alpha_3_code="LTU"
+        name="Lithuania "
+    />
+    <stanag_entry
+        alpha_3_code="LUX"
+        name="Luxembourg "
+    />
+    <stanag_entry
+        alpha_3_code="LVA"
+        name="Latvia "
+    />
+    <stanag_entry
+        alpha_3_code="MAC"
+        name="Macau "
+    />
+    <stanag_entry
+        alpha_3_code="MAR"
+        name="Morocco "
+    />
+    <stanag_entry
+        alpha_3_code="MCO"
+        name="Monaco "
+    />
+    <stanag_entry
+        alpha_3_code="MDA"
+        name="Moldova "
+    />
+    <stanag_entry
+        alpha_3_code="MDG"
+        name="Madagascar "
+    />
+    <stanag_entry
+        alpha_3_code="MDV"
+        name="Maldives "
+    />
+    <stanag_entry
+        alpha_3_code="MEX"
+        name="Mexico "
+    />
+    <stanag_entry
+        alpha_3_code="MHL"
+        name="Marshall Islands "
+    />
+    <stanag_entry
+        alpha_3_code="MLI"
+        name="Mali "
+    />
+    <stanag_entry
+        alpha_3_code="MLT"
+        name="Malta "
+    />
+    <stanag_entry
+        alpha_3_code="MMR"
+        name="Burma "
+    />
+    <stanag_entry
+        alpha_3_code="MNE"
+        name="Montenegro "
+    />
+    <stanag_entry
+        alpha_3_code="MNG"
+        name="Mongolia "
+    />
+    <stanag_entry
+        alpha_3_code="MNP"
+        name="Northern Mariana Islands "
+    />
+    <stanag_entry
+        alpha_3_code="MOZ"
+        name="Mozambique "
+    />
+    <stanag_entry
+        alpha_3_code="MRT"
+        name="Mauritania "
+    />
+    <stanag_entry
+        alpha_3_code="MSR"
+        name="Montserrat "
+    />
+    <stanag_entry
+        alpha_3_code="MTQ"
+        name="Martinique "
+    />
+    <stanag_entry
+        alpha_3_code="MUS"
+        name="Mauritius "
+    />
+    <stanag_entry
+        alpha_3_code="MWI"
+        name="Malawi "
+    />
+    <stanag_entry
+        alpha_3_code="MYS"
+        name="Malaysia "
+    />
+    <stanag_entry
+        alpha_3_code="NAM"
+        name="Namibia "
+    />
+    <stanag_entry
+        alpha_3_code="NCL"
+        name="New Caledonia "
+    />
+    <stanag_entry
+        alpha_3_code="NER"
+        name="Niger "
+    />
+    <stanag_entry
+        alpha_3_code="NFK"
+        name="Norfolk Island "
+    />
+    <stanag_entry
+        alpha_3_code="NGA"
+        name="Nigeria "
+    />
+    <stanag_entry
+        alpha_3_code="NIC"
+        name="Nicaragua "
+    />
+    <stanag_entry
+        alpha_3_code="NIU"
+        name="Niue "
+    />
+    <stanag_entry
+        alpha_3_code="NLD"
+        name="Netherlands "
+    />
+    <stanag_entry
+        alpha_3_code="NOR"
+        name="Norway "
+    />
+    <stanag_entry
+        alpha_3_code="NPL"
+        name="Nepal "
+    />
+    <stanag_entry
+        alpha_3_code="NRU"
+        name="Nauru "
+    />
+    <stanag_entry
+        alpha_3_code="NZL"
+        name="New Zealand "
+    />
+    <stanag_entry
+        alpha_3_code="OMN"
+        name="Oman "
+    />
+    <stanag_entry
+        alpha_3_code="PAK"
+        name="Pakistan "
+    />
+    <stanag_entry
+        alpha_3_code="PAN"
+        name="Panama "
+    />
+    <stanag_entry
+        alpha_3_code="PCN"
+        name="Pitcairn Islands "
+    />
+    <stanag_entry
+        alpha_3_code="PER"
+        name="Peru "
+    />
+    <stanag_entry
+        alpha_3_code="PHL"
+        name="Philippines "
+    />
+    <stanag_entry
+        alpha_3_code="PLW"
+        name="Palau "
+    />
+    <stanag_entry
+        alpha_3_code="PNG"
+        name="Papua New Guinea "
+    />
+    <stanag_entry
+        alpha_3_code="POL"
+        name="Poland "
+    />
+    <stanag_entry
+        alpha_3_code="PRI"
+        name="Puerto Rico "
+    />
+    <stanag_entry
+        alpha_3_code="PRK"
+        name="Korea, North "
+    />
+    <stanag_entry
+        alpha_3_code="PRT"
+        name="Portugal "
+    />
+    <stanag_entry
+        alpha_3_code="PRY"
+        name="Paraguay "
+    />
+    <stanag_entry
+        alpha_3_code="PSE"
+        name="Gaza Strip "
+    />
+    <stanag_entry
+        alpha_3_code="PSE"
+        name="West Bank "
+    />
+    <stanag_entry
+        alpha_3_code="PYF"
+        name="French Polynesia "
+    />
+    <stanag_entry
+        alpha_3_code="QAT"
+        name="Qatar "
+    />
+    <stanag_entry
+        alpha_3_code="REU"
+        name="Reunion "
+    />
+    <stanag_entry
+        alpha_3_code="ROU"
+        name="Romania "
+    />
+    <stanag_entry
+        alpha_3_code="RUS"
+        name="Russia "
+    />
+    <stanag_entry
+        alpha_3_code="RWA"
+        name="Rwanda "
+    />
+    <stanag_entry
+        alpha_3_code="SAU"
+        name="Saudi Arabia "
+    />
+    <stanag_entry
+        alpha_3_code="SDN"
+        name="Sudan "
+    />
+    <stanag_entry
+        alpha_3_code="SEN"
+        name="Senegal "
+    />
+    <stanag_entry
+        alpha_3_code="SGP"
+        name="Singapore "
+    />
+    <stanag_entry
+        alpha_3_code="SGS"
+        name="South Georgia and the Islands "
+    />
+    <stanag_entry
+        alpha_3_code="SHN"
+        name="Saint Helena, Ascension, and Tristan da Cunha "
+    />
+    <stanag_entry
+        alpha_3_code="SJM"
+        name="Jan Mayen "
+    />
+    <stanag_entry
+        alpha_3_code="SJM"
+        name="Svalbard "
+    />
+    <stanag_entry
+        alpha_3_code="SLB"
+        name="Solomon Islands "
+    />
+    <stanag_entry
+        alpha_3_code="SLE"
+        name="Sierra Leone "
+    />
+    <stanag_entry
+        alpha_3_code="SLV"
+        name="El Salvador "
+    />
+    <stanag_entry
+        alpha_3_code="SMR"
+        name="San Marino "
+    />
+    <stanag_entry
+        alpha_3_code="SOM"
+        name="Somalia "
+    />
+    <stanag_entry
+        alpha_3_code="SPM"
+        name="Saint Pierre and Miquelon "
+    />
+    <stanag_entry
+        alpha_3_code="STP"
+        name="Sao Tome and Principe "
+    />
+    <stanag_entry
+        alpha_3_code="SUR"
+        name="Suriname "
+    />
+    <stanag_entry
+        alpha_3_code="SVK"
+        name="Slovakia "
+    />
+    <stanag_entry
+        alpha_3_code="SVN"
+        name="Slovenia "
+    />
+    <stanag_entry
+        alpha_3_code="SWE"
+        name="Sweden "
+    />
+    <stanag_entry
+        alpha_3_code="SWZ"
+        name="Swaziland "
+    />
+    <stanag_entry
+        alpha_3_code="SYC"
+        name="Seychelles "
+    />
+    <stanag_entry
+        alpha_3_code="SYR"
+        name="Syria "
+    />
+    <stanag_entry
+        alpha_3_code="TCA"
+        name="Turks and Caicos Islands "
+    />
+    <stanag_entry
+        alpha_3_code="TCD"
+        name="Chad "
+    />
+    <stanag_entry
+        alpha_3_code="TGO"
+        name="Togo "
+    />
+    <stanag_entry
+        alpha_3_code="THA"
+        name="Thailand "
+    />
+    <stanag_entry
+        alpha_3_code="TJK"
+        name="Tajikistan "
+    />
+    <stanag_entry
+        alpha_3_code="TKL"
+        name="Tokelau "
+    />
+    <stanag_entry
+        alpha_3_code="TKM"
+        name="Turkmenistan "
+    />
+    <stanag_entry
+        alpha_3_code="TLS"
+        name="Timor-Leste "
+    />
+    <stanag_entry
+        alpha_3_code="TON"
+        name="Tonga "
+    />
+    <stanag_entry
+        alpha_3_code="TTO"
+        name="Trinidad and Tobago "
+    />
+    <stanag_entry
+        alpha_3_code="TUN"
+        name="Tunisia "
+    />
+    <stanag_entry
+        alpha_3_code="TUR"
+        name="Turkey "
+    />
+    <stanag_entry
+        alpha_3_code="TUV"
+        name="Tuvalu "
+    />
+    <stanag_entry
+        alpha_3_code="TWN"
+        name="Taiwan "
+    />
+    <stanag_entry
+        alpha_3_code="TZA"
+        name="Tanzania "
+    />
+    <stanag_entry
+        alpha_3_code="UGA"
+        name="Uganda "
+    />
+    <stanag_entry
+        alpha_3_code="UK"
+        name="Guernsey "
+    />
+    <stanag_entry
+        alpha_3_code="UK"
+        name="Isle of Man "
+    />
+    <stanag_entry
+        alpha_3_code="UK"
+        name="Jersey "
+    />
+    <stanag_entry
+        alpha_3_code="UKR"
+        name="Ukraine "
+    />
+    <stanag_entry
+        alpha_3_code="UMI"
+        name="Baker Island "
+    />
+    <stanag_entry
+        alpha_3_code="UMI"
+        name="Howland Island "
+    />
+    <stanag_entry
+        alpha_3_code="UMI"
+        name="Jarvis Island "
+    />
+    <stanag_entry
+        alpha_3_code="UMI"
+        name="Johnston Atoll "
+    />
+    <stanag_entry
+        alpha_3_code="UMI"
+        name="Kingman Reef "
+    />
+    <stanag_entry
+        alpha_3_code="UMI"
+        name="Midway Islands "
+    />
+    <stanag_entry
+        alpha_3_code="UMI"
+        name="Palmyra Atoll "
+    />
+    <stanag_entry
+        alpha_3_code="UMI"
+        name="Wake Island "
+    />
+    <stanag_entry
+        alpha_3_code="URY"
+        name="Uruguay "
+    />
+    <stanag_entry
+        alpha_3_code="US"
+        name="Navassa Island "
+    />
+    <stanag_entry
+        alpha_3_code="USA"
+        name="United States "
+    />
+    <stanag_entry
+        alpha_3_code="UZB"
+        name="Uzbekistan "
+    />
+    <stanag_entry
+        alpha_3_code="VAT"
+        name="Holy See (Vatican City) "
+    />
+    <stanag_entry
+        alpha_3_code="VCT"
+        name="Saint Vincent and the Grenadines "
+    />
+    <stanag_entry
+        alpha_3_code="VEN"
+        name="Venezuela "
+    />
+    <stanag_entry
+        alpha_3_code="VGB"
+        name="British Virgin Islands "
+    />
+    <stanag_entry
+        alpha_3_code="VIR"
+        name="Virgin Islands "
+    />
+    <stanag_entry
+        alpha_3_code="VNM"
+        name="Vietnam "
+    />
+    <stanag_entry
+        alpha_3_code="VUT"
+        name="Vanuatu "
+    />
+    <stanag_entry
+        alpha_3_code="WLF"
+        name="Wallis and Futuna "
+    />
+    <stanag_entry
+        alpha_3_code="WSM"
+        name="Samoa "
+    />
+    <stanag_entry
+        alpha_3_code="YEM"
+        name="Yemen "
+    />
+    <stanag_entry
+        alpha_3_code="ZAF"
+        name="South Africa "
+    />
+    <stanag_entry
+        alpha_3_code="ZMB"
+        name="Zambia "
+    />
+    <stanag_entry
+        alpha_3_code="ZWE"
+        name="Zimbabwe "
+    />
+</stanag_entries>

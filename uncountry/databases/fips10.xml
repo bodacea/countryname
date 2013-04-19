@@ -1,0 +1,1120 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!--
+This file gives a list of all countries in the UNstats
+standard, and is used to provide translations via gettext
+
+Copyright (C) 2013 Sara-Jayne Farmer <sara@changeassembly.com>
+
+    This file is free software; you can redistribute it and/or
+    modify it under the terms of the GNU Lesser General Public
+    License as published by the Free Software Foundation; either
+    version 2.1 of the License, or (at your option) any later version.
+
+    This file is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+    Lesser General Public License for more details.
+
+    You should have received a copy of the GNU Lesser General Public
+    License along with this file; if not, write to the Free Software
+    Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA
+
+Source: 
+-->
+
+<!DOCTYPE fips10_entries [
+	<!ELEMENT fips10_entries (fips10_entry+)>
+	<!ELEMENT fips10_entry EMPTY>
+	<!ATTLIST fips10_entry
+		alpha_2_code		CDATA	#REQUIRED
+		name			    CDATA	#REQUIRED
+	>
+]>
+
+<fips10_entries>
+    <fips10_entry
+        alpha_2_code="AF"
+        name="Afghanistan"
+    />
+    <fips10_entry
+        alpha_2_code="AX"
+        name="Akrotiri"
+    />
+    <fips10_entry
+        alpha_2_code="AL"
+        name="Albania"
+    />
+    <fips10_entry
+        alpha_2_code="AG"
+        name="Algeria"
+    />
+    <fips10_entry
+        alpha_2_code="AQ"
+        name="American Samoa"
+    />
+    <fips10_entry
+        alpha_2_code="AN"
+        name="Andorra"
+    />
+    <fips10_entry
+        alpha_2_code="AO"
+        name="Angola"
+    />
+    <fips10_entry
+        alpha_2_code="AV"
+        name="Anguilla"
+    />
+    <fips10_entry
+        alpha_2_code="AY"
+        name="Antarctica"
+    />
+    <fips10_entry
+        alpha_2_code="AC"
+        name="Antigua and Barbuda"
+    />
+    <fips10_entry
+        alpha_2_code="AR"
+        name="Argentina"
+    />
+    <fips10_entry
+        alpha_2_code="AM"
+        name="Armenia"
+    />
+    <fips10_entry
+        alpha_2_code="AA"
+        name="Aruba"
+    />
+    <fips10_entry
+        alpha_2_code="AT"
+        name="Ashmore and Cartier Islands"
+    />
+    <fips10_entry
+        alpha_2_code="AS"
+        name="Australia"
+    />
+    <fips10_entry
+        alpha_2_code="AU"
+        name="Austria"
+    />
+    <fips10_entry
+        alpha_2_code="AJ"
+        name="Azerbaijan"
+    />
+    <fips10_entry
+        alpha_2_code="BF"
+        name="Bahamas, The"
+    />
+    <fips10_entry
+        alpha_2_code="BA"
+        name="Bahrain"
+    />
+    <fips10_entry
+        alpha_2_code="FQ"
+        name="Baker Island"
+    />
+    <fips10_entry
+        alpha_2_code="BG"
+        name="Bangladesh"
+    />
+    <fips10_entry
+        alpha_2_code="BB"
+        name="Barbados"
+    />
+    <fips10_entry
+        alpha_2_code="BS"
+        name="Bassas da India"
+    />
+    <fips10_entry
+        alpha_2_code="BO"
+        name="Belarus"
+    />
+    <fips10_entry
+        alpha_2_code="BE"
+        name="Belgium"
+    />
+    <fips10_entry
+        alpha_2_code="BH"
+        name="Belize"
+    />
+    <fips10_entry
+        alpha_2_code="BN"
+        name="Benin"
+    />
+    <fips10_entry
+        alpha_2_code="BD"
+        name="Bermuda"
+    />
+    <fips10_entry
+        alpha_2_code="BT"
+        name="Bhutan"
+    />
+    <fips10_entry
+        alpha_2_code="BL"
+        name="Bolivia"
+    />
+    <fips10_entry
+        alpha_2_code="BK"
+        name="Bosnia and Herzegovina"
+    />
+    <fips10_entry
+        alpha_2_code="BC"
+        name="Botswana"
+    />
+    <fips10_entry
+        alpha_2_code="BV"
+        name="Bouvet Island"
+    />
+    <fips10_entry
+        alpha_2_code="BR"
+        name="Brazil"
+    />
+    <fips10_entry
+        alpha_2_code="IO"
+        name="British Indian Ocean Territory"
+    />
+    <fips10_entry
+        alpha_2_code="VI"
+        name="British Virgin Islands"
+    />
+    <fips10_entry
+        alpha_2_code="BX"
+        name="Brunei"
+    />
+    <fips10_entry
+        alpha_2_code="BU"
+        name="Bulgaria"
+    />
+    <fips10_entry
+        alpha_2_code="UV"
+        name="Burkina Faso"
+    />
+    <fips10_entry
+        alpha_2_code="BM"
+        name="Burma"
+    />
+    <fips10_entry
+        alpha_2_code="BY"
+        name="Burundi"
+    />
+    <fips10_entry
+        alpha_2_code="CB"
+        name="Cambodia"
+    />
+    <fips10_entry
+        alpha_2_code="CM"
+        name="Cameroon"
+    />
+    <fips10_entry
+        alpha_2_code="CA"
+        name="Canada"
+    />
+    <fips10_entry
+        alpha_2_code="CV"
+        name="Cape Verde"
+    />
+    <fips10_entry
+        alpha_2_code="CJ"
+        name="Cayman Islands"
+    />
+    <fips10_entry
+        alpha_2_code="CT"
+        name="Central African Republic"
+    />
+    <fips10_entry
+        alpha_2_code="CD"
+        name="Chad"
+    />
+    <fips10_entry
+        alpha_2_code="CI"
+        name="Chile"
+    />
+    <fips10_entry
+        alpha_2_code="CH"
+        name="China"
+    />
+    <fips10_entry
+        alpha_2_code="KT"
+        name="Christmas Island"
+    />
+    <fips10_entry
+        alpha_2_code="IP"
+        name="Clipperton Island"
+    />
+    <fips10_entry
+        alpha_2_code="CK"
+        name="Cocos (Keeling) Islands"
+    />
+    <fips10_entry
+        alpha_2_code="CO"
+        name="Colombia"
+    />
+    <fips10_entry
+        alpha_2_code="CN"
+        name="Comoros"
+    />
+    <fips10_entry
+        alpha_2_code="CG"
+        name="Congo, Democratic Republic of the"
+    />
+    <fips10_entry
+        alpha_2_code="CF"
+        name="Congo, Republic of the"
+    />
+    <fips10_entry
+        alpha_2_code="CW"
+        name="Cook Islands"
+    />
+    <fips10_entry
+        alpha_2_code="CR"
+        name="Coral Sea Islands"
+    />
+    <fips10_entry
+        alpha_2_code="CS"
+        name="Costa Rica"
+    />
+    <fips10_entry
+        alpha_2_code="IV"
+        name="Cote d'Ivoire"
+    />
+    <fips10_entry
+        alpha_2_code="HR"
+        name="Croatia"
+    />
+    <fips10_entry
+        alpha_2_code="CU"
+        name="Cuba"
+    />
+    <fips10_entry
+        alpha_2_code="UC"
+        name="Curacao"
+    />
+    <fips10_entry
+        alpha_2_code="CY"
+        name="Cyprus"
+    />
+    <fips10_entry
+        alpha_2_code="EZ"
+        name="Czech Republic"
+    />
+    <fips10_entry
+        alpha_2_code="DA"
+        name="Denmark"
+    />
+    <fips10_entry
+        alpha_2_code="DX"
+        name="Dhekelia"
+    />
+    <fips10_entry
+        alpha_2_code="DJ"
+        name="Djibouti"
+    />
+    <fips10_entry
+        alpha_2_code="DO"
+        name="Dominica"
+    />
+    <fips10_entry
+        alpha_2_code="DR"
+        name="Dominican Republic"
+    />
+    <fips10_entry
+        alpha_2_code="EC"
+        name="Ecuador"
+    />
+    <fips10_entry
+        alpha_2_code="EG"
+        name="Egypt"
+    />
+    <fips10_entry
+        alpha_2_code="ES"
+        name="El Salvador"
+    />
+    <fips10_entry
+        alpha_2_code="EK"
+        name="Equatorial Guinea"
+    />
+    <fips10_entry
+        alpha_2_code="ER"
+        name="Eritrea"
+    />
+    <fips10_entry
+        alpha_2_code="EN"
+        name="Estonia"
+    />
+    <fips10_entry
+        alpha_2_code="ET"
+        name="Ethiopia"
+    />
+    <fips10_entry
+        alpha_2_code="EU"
+        name="Europa Island"
+    />
+    <fips10_entry
+        alpha_2_code="FK"
+        name="Falkland Islands (Islas Malvinas)"
+    />
+    <fips10_entry
+        alpha_2_code="FO"
+        name="Faroe Islands"
+    />
+    <fips10_entry
+        alpha_2_code="FJ"
+        name="Fiji"
+    />
+    <fips10_entry
+        alpha_2_code="FI"
+        name="Finland"
+    />
+    <fips10_entry
+        alpha_2_code="FR"
+        name="France"
+    />
+    <fips10_entry
+        alpha_2_code="FG"
+        name="French Guiana"
+    />
+    <fips10_entry
+        alpha_2_code="FP"
+        name="French Polynesia"
+    />
+    <fips10_entry
+        alpha_2_code="FS"
+        name="French Southern and Antarctic Lands"
+    />
+    <fips10_entry
+        alpha_2_code="GB"
+        name="Gabon"
+    />
+    <fips10_entry
+        alpha_2_code="GA"
+        name="Gambia, The"
+    />
+    <fips10_entry
+        alpha_2_code="GZ"
+        name="Gaza Strip"
+    />
+    <fips10_entry
+        alpha_2_code="GG"
+        name="Georgia"
+    />
+    <fips10_entry
+        alpha_2_code="GM"
+        name="Germany"
+    />
+    <fips10_entry
+        alpha_2_code="GH"
+        name="Ghana"
+    />
+    <fips10_entry
+        alpha_2_code="GI"
+        name="Gibraltar"
+    />
+    <fips10_entry
+        alpha_2_code="GO"
+        name="Glorioso Islands"
+    />
+    <fips10_entry
+        alpha_2_code="GR"
+        name="Greece"
+    />
+    <fips10_entry
+        alpha_2_code="GL"
+        name="Greenland"
+    />
+    <fips10_entry
+        alpha_2_code="GJ"
+        name="Grenada"
+    />
+    <fips10_entry
+        alpha_2_code="GP"
+        name="Guadeloupe"
+    />
+    <fips10_entry
+        alpha_2_code="GQ"
+        name="Guam"
+    />
+    <fips10_entry
+        alpha_2_code="GT"
+        name="Guatemala"
+    />
+    <fips10_entry
+        alpha_2_code="GK"
+        name="Guernsey"
+    />
+    <fips10_entry
+        alpha_2_code="GV"
+        name="Guinea"
+    />
+    <fips10_entry
+        alpha_2_code="PU"
+        name="Guinea-Bissau"
+    />
+    <fips10_entry
+        alpha_2_code="GY"
+        name="Guyana"
+    />
+    <fips10_entry
+        alpha_2_code="HA"
+        name="Haiti"
+    />
+    <fips10_entry
+        alpha_2_code="HM"
+        name="Heard Island and McDonald Islands"
+    />
+    <fips10_entry
+        alpha_2_code="VT"
+        name="Holy See (Vatican City)"
+    />
+    <fips10_entry
+        alpha_2_code="HO"
+        name="Honduras"
+    />
+    <fips10_entry
+        alpha_2_code="HK"
+        name="Hong Kong"
+    />
+    <fips10_entry
+        alpha_2_code="HQ"
+        name="Howland Island"
+    />
+    <fips10_entry
+        alpha_2_code="HU"
+        name="Hungary"
+    />
+    <fips10_entry
+        alpha_2_code="IC"
+        name="Iceland"
+    />
+    <fips10_entry
+        alpha_2_code="IN"
+        name="India"
+    />
+    <fips10_entry
+        alpha_2_code="ID"
+        name="Indonesia"
+    />
+    <fips10_entry
+        alpha_2_code="IR"
+        name="Iran"
+    />
+    <fips10_entry
+        alpha_2_code="IZ"
+        name="Iraq"
+    />
+    <fips10_entry
+        alpha_2_code="EI"
+        name="Ireland"
+    />
+    <fips10_entry
+        alpha_2_code="IM"
+        name="Isle of Man"
+    />
+    <fips10_entry
+        alpha_2_code="IS"
+        name="Israel"
+    />
+    <fips10_entry
+        alpha_2_code="IT"
+        name="Italy"
+    />
+    <fips10_entry
+        alpha_2_code="JM"
+        name="Jamaica"
+    />
+    <fips10_entry
+        alpha_2_code="JN"
+        name="Jan Mayen"
+    />
+    <fips10_entry
+        alpha_2_code="JA"
+        name="Japan"
+    />
+    <fips10_entry
+        alpha_2_code="DQ"
+        name="Jarvis Island"
+    />
+    <fips10_entry
+        alpha_2_code="JE"
+        name="Jersey"
+    />
+    <fips10_entry
+        alpha_2_code="JQ"
+        name="Johnston Atoll"
+    />
+    <fips10_entry
+        alpha_2_code="JO"
+        name="Jordan"
+    />
+    <fips10_entry
+        alpha_2_code="JU"
+        name="Juan de Nova Island"
+    />
+    <fips10_entry
+        alpha_2_code="KZ"
+        name="Kazakhstan"
+    />
+    <fips10_entry
+        alpha_2_code="KE"
+        name="Kenya"
+    />
+    <fips10_entry
+        alpha_2_code="KQ"
+        name="Kingman Reef"
+    />
+    <fips10_entry
+        alpha_2_code="KR"
+        name="Kiribati"
+    />
+    <fips10_entry
+        alpha_2_code="KN"
+        name="Korea, North"
+    />
+    <fips10_entry
+        alpha_2_code="KS"
+        name="Korea, South"
+    />
+    <fips10_entry
+        alpha_2_code="KV"
+        name="Kosovo"
+    />
+    <fips10_entry
+        alpha_2_code="KU"
+        name="Kuwait"
+    />
+    <fips10_entry
+        alpha_2_code="KG"
+        name="Kyrgyzstan"
+    />
+    <fips10_entry
+        alpha_2_code="LA"
+        name="Laos"
+    />
+    <fips10_entry
+        alpha_2_code="LG"
+        name="Latvia"
+    />
+    <fips10_entry
+        alpha_2_code="LE"
+        name="Lebanon"
+    />
+    <fips10_entry
+        alpha_2_code="LT"
+        name="Lesotho"
+    />
+    <fips10_entry
+        alpha_2_code="LI"
+        name="Liberia"
+    />
+    <fips10_entry
+        alpha_2_code="LY"
+        name="Libya"
+    />
+    <fips10_entry
+        alpha_2_code="LS"
+        name="Liechtenstein"
+    />
+    <fips10_entry
+        alpha_2_code="LH"
+        name="Lithuania"
+    />
+    <fips10_entry
+        alpha_2_code="LU"
+        name="Luxembourg"
+    />
+    <fips10_entry
+        alpha_2_code="MC"
+        name="Macau"
+    />
+    <fips10_entry
+        alpha_2_code="MK"
+        name="Macedonia"
+    />
+    <fips10_entry
+        alpha_2_code="MA"
+        name="Madagascar"
+    />
+    <fips10_entry
+        alpha_2_code="MI"
+        name="Malawi"
+    />
+    <fips10_entry
+        alpha_2_code="MY"
+        name="Malaysia"
+    />
+    <fips10_entry
+        alpha_2_code="MV"
+        name="Maldives"
+    />
+    <fips10_entry
+        alpha_2_code="ML"
+        name="Mali"
+    />
+    <fips10_entry
+        alpha_2_code="MT"
+        name="Malta"
+    />
+    <fips10_entry
+        alpha_2_code="RM"
+        name="Marshall Islands"
+    />
+    <fips10_entry
+        alpha_2_code="MB"
+        name="Martinique"
+    />
+    <fips10_entry
+        alpha_2_code="MR"
+        name="Mauritania"
+    />
+    <fips10_entry
+        alpha_2_code="MP"
+        name="Mauritius"
+    />
+    <fips10_entry
+        alpha_2_code="MF"
+        name="Mayotte"
+    />
+    <fips10_entry
+        alpha_2_code="MX"
+        name="Mexico"
+    />
+    <fips10_entry
+        alpha_2_code="FM"
+        name="Micronesia, Federated States of"
+    />
+    <fips10_entry
+        alpha_2_code="MQ"
+        name="Midway Islands"
+    />
+    <fips10_entry
+        alpha_2_code="MD"
+        name="Moldova"
+    />
+    <fips10_entry
+        alpha_2_code="MN"
+        name="Monaco"
+    />
+    <fips10_entry
+        alpha_2_code="MG"
+        name="Mongolia"
+    />
+    <fips10_entry
+        alpha_2_code="MJ"
+        name="Montenegro"
+    />
+    <fips10_entry
+        alpha_2_code="MH"
+        name="Montserrat"
+    />
+    <fips10_entry
+        alpha_2_code="MO"
+        name="Morocco"
+    />
+    <fips10_entry
+        alpha_2_code="MZ"
+        name="Mozambique"
+    />
+    <fips10_entry
+        alpha_2_code="WA"
+        name="Namibia"
+    />
+    <fips10_entry
+        alpha_2_code="NR"
+        name="Nauru"
+    />
+    <fips10_entry
+        alpha_2_code="BQ"
+        name="Navassa Island"
+    />
+    <fips10_entry
+        alpha_2_code="NP"
+        name="Nepal"
+    />
+    <fips10_entry
+        alpha_2_code="NL"
+        name="Netherlands"
+    />
+    <fips10_entry
+        alpha_2_code="NT"
+        name="Netherlands Antilles"
+    />
+    <fips10_entry
+        alpha_2_code="NC"
+        name="New Caledonia"
+    />
+    <fips10_entry
+        alpha_2_code="NZ"
+        name="New Zealand"
+    />
+    <fips10_entry
+        alpha_2_code="NU"
+        name="Nicaragua"
+    />
+    <fips10_entry
+        alpha_2_code="NG"
+        name="Niger"
+    />
+    <fips10_entry
+        alpha_2_code="NI"
+        name="Nigeria"
+    />
+    <fips10_entry
+        alpha_2_code="NE"
+        name="Niue"
+    />
+    <fips10_entry
+        alpha_2_code="NF"
+        name="Norfolk Island"
+    />
+    <fips10_entry
+        alpha_2_code="CQ"
+        name="Northern Mariana Islands"
+    />
+    <fips10_entry
+        alpha_2_code="NO"
+        name="Norway"
+    />
+    <fips10_entry
+        alpha_2_code="MU"
+        name="Oman"
+    />
+    <fips10_entry
+        alpha_2_code="PK"
+        name="Pakistan"
+    />
+    <fips10_entry
+        alpha_2_code="PS"
+        name="Palau"
+    />
+    <fips10_entry
+        alpha_2_code="LQ"
+        name="Palmyra Atoll"
+    />
+    <fips10_entry
+        alpha_2_code="PM"
+        name="Panama"
+    />
+    <fips10_entry
+        alpha_2_code="PP"
+        name="Papua New Guinea"
+    />
+    <fips10_entry
+        alpha_2_code="PF"
+        name="Paracel Islands"
+    />
+    <fips10_entry
+        alpha_2_code="PA"
+        name="Paraguay"
+    />
+    <fips10_entry
+        alpha_2_code="PE"
+        name="Peru"
+    />
+    <fips10_entry
+        alpha_2_code="RP"
+        name="Philippines"
+    />
+    <fips10_entry
+        alpha_2_code="PC"
+        name="Pitcairn Islands"
+    />
+    <fips10_entry
+        alpha_2_code="PL"
+        name="Poland"
+    />
+    <fips10_entry
+        alpha_2_code="PO"
+        name="Portugal"
+    />
+    <fips10_entry
+        alpha_2_code="RQ"
+        name="Puerto Rico"
+    />
+    <fips10_entry
+        alpha_2_code="QA"
+        name="Qatar"
+    />
+    <fips10_entry
+        alpha_2_code="RE"
+        name="Reunion"
+    />
+    <fips10_entry
+        alpha_2_code="RO"
+        name="Romania"
+    />
+    <fips10_entry
+        alpha_2_code="RS"
+        name="Russia"
+    />
+    <fips10_entry
+        alpha_2_code="RW"
+        name="Rwanda"
+    />
+    <fips10_entry
+        alpha_2_code="TB"
+        name="Saint Barthelemy"
+    />
+    <fips10_entry
+        alpha_2_code="SH"
+        name="Saint Helena, Ascension, and Tristan da Cunha"
+    />
+    <fips10_entry
+        alpha_2_code="SC"
+        name="Saint Kitts and Nevis"
+    />
+    <fips10_entry
+        alpha_2_code="ST"
+        name="Saint Lucia"
+    />
+    <fips10_entry
+        alpha_2_code="RN"
+        name="Saint Martin"
+    />
+    <fips10_entry
+        alpha_2_code="SB"
+        name="Saint Pierre and Miquelon"
+    />
+    <fips10_entry
+        alpha_2_code="VC"
+        name="Saint Vincent and the Grenadines"
+    />
+    <fips10_entry
+        alpha_2_code="WS"
+        name="Samoa"
+    />
+    <fips10_entry
+        alpha_2_code="SM"
+        name="San Marino"
+    />
+    <fips10_entry
+        alpha_2_code="TP"
+        name="Sao Tome and Principe"
+    />
+    <fips10_entry
+        alpha_2_code="SA"
+        name="Saudi Arabia"
+    />
+    <fips10_entry
+        alpha_2_code="SG"
+        name="Senegal"
+    />
+    <fips10_entry
+        alpha_2_code="RI"
+        name="Serbia"
+    />
+    <fips10_entry
+        alpha_2_code="SE"
+        name="Seychelles"
+    />
+    <fips10_entry
+        alpha_2_code="SL"
+        name="Sierra Leone"
+    />
+    <fips10_entry
+        alpha_2_code="SN"
+        name="Singapore"
+    />
+    <fips10_entry
+        alpha_2_code="SK"
+        name="Sint Maarten"
+    />
+    <fips10_entry
+        alpha_2_code="LO"
+        name="Slovakia"
+    />
+    <fips10_entry
+        alpha_2_code="SI"
+        name="Slovenia"
+    />
+    <fips10_entry
+        alpha_2_code="BP"
+        name="Solomon Islands"
+    />
+    <fips10_entry
+        alpha_2_code="SO"
+        name="Somalia"
+    />
+    <fips10_entry
+        alpha_2_code="SF"
+        name="South Africa"
+    />
+    <fips10_entry
+        alpha_2_code="SX"
+        name="South Georgia and the Islands"
+    />
+    <fips10_entry
+        alpha_2_code="OD"
+        name="South Sudan"
+    />
+    <fips10_entry
+        alpha_2_code="SP"
+        name="Spain"
+    />
+    <fips10_entry
+        alpha_2_code="PG"
+        name="Spratly Islands"
+    />
+    <fips10_entry
+        alpha_2_code="CE"
+        name="Sri Lanka"
+    />
+    <fips10_entry
+        alpha_2_code="SU"
+        name="Sudan"
+    />
+    <fips10_entry
+        alpha_2_code="NS"
+        name="Suriname"
+    />
+    <fips10_entry
+        alpha_2_code="SV"
+        name="Svalbard"
+    />
+    <fips10_entry
+        alpha_2_code="WZ"
+        name="Swaziland"
+    />
+    <fips10_entry
+        alpha_2_code="SW"
+        name="Sweden"
+    />
+    <fips10_entry
+        alpha_2_code="SZ"
+        name="Switzerland"
+    />
+    <fips10_entry
+        alpha_2_code="SY"
+        name="Syria"
+    />
+    <fips10_entry
+        alpha_2_code="TW"
+        name="Taiwan"
+    />
+    <fips10_entry
+        alpha_2_code="TI"
+        name="Tajikistan"
+    />
+    <fips10_entry
+        alpha_2_code="TZ"
+        name="Tanzania"
+    />
+    <fips10_entry
+        alpha_2_code="TH"
+        name="Thailand"
+    />
+    <fips10_entry
+        alpha_2_code="TT"
+        name="Timor-Leste"
+    />
+    <fips10_entry
+        alpha_2_code="TO"
+        name="Togo"
+    />
+    <fips10_entry
+        alpha_2_code="TL"
+        name="Tokelau"
+    />
+    <fips10_entry
+        alpha_2_code="TN"
+        name="Tonga"
+    />
+    <fips10_entry
+        alpha_2_code="TD"
+        name="Trinidad and Tobago"
+    />
+    <fips10_entry
+        alpha_2_code="TE"
+        name="Tromelin Island"
+    />
+    <fips10_entry
+        alpha_2_code="TS"
+        name="Tunisia"
+    />
+    <fips10_entry
+        alpha_2_code="TU"
+        name="Turkey"
+    />
+    <fips10_entry
+        alpha_2_code="TX"
+        name="Turkmenistan"
+    />
+    <fips10_entry
+        alpha_2_code="TK"
+        name="Turks and Caicos Islands"
+    />
+    <fips10_entry
+        alpha_2_code="TV"
+        name="Tuvalu"
+    />
+    <fips10_entry
+        alpha_2_code="UG"
+        name="Uganda"
+    />
+    <fips10_entry
+        alpha_2_code="UP"
+        name="Ukraine"
+    />
+    <fips10_entry
+        alpha_2_code="AE"
+        name="United Arab Emirates"
+    />
+    <fips10_entry
+        alpha_2_code="UK"
+        name="United Kingdom"
+    />
+    <fips10_entry
+        alpha_2_code="US"
+        name="United States"
+    />
+    <fips10_entry
+        alpha_2_code="UY"
+        name="Uruguay"
+    />
+    <fips10_entry
+        alpha_2_code="UZ"
+        name="Uzbekistan"
+    />
+    <fips10_entry
+        alpha_2_code="NH"
+        name="Vanuatu"
+    />
+    <fips10_entry
+        alpha_2_code="VE"
+        name="Venezuela"
+    />
+    <fips10_entry
+        alpha_2_code="VM"
+        name="Vietnam"
+    />
+    <fips10_entry
+        alpha_2_code="VQ"
+        name="Virgin Islands"
+    />
+    <fips10_entry
+        alpha_2_code="WQ"
+        name="Wake Island"
+    />
+    <fips10_entry
+        alpha_2_code="WF"
+        name="Wallis and Futuna"
+    />
+    <fips10_entry
+        alpha_2_code="WE"
+        name="West Bank"
+    />
+    <fips10_entry
+        alpha_2_code="WI"
+        name="Western Sahara"
+    />
+    <fips10_entry
+        alpha_2_code="YM"
+        name="Yemen"
+    />
+    <fips10_entry
+        alpha_2_code="ZA"
+        name="Zambia"
+    />
+    <fips10_entry
+        alpha_2_code="ZI"
+        name="Zimbabwe"
+    />
+</fips10_entries>
