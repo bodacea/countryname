@@ -1,0 +1,12 @@
+There are many countryname standards on the Internet, including ISO3166 (copied into FIPS104-1 in the USA), FIPS10-4 (now known as Geopolitical Entities and Codes, or GEC), Stanag 1059 and UN Statistics divison standard M49. This code attempts to make all these standards available to python users. It also contains "crosswalks" between the standards - this is made more difficult by naming standards that changed at different dates, political differences between names (e.g. Macedonia) and standards (e.g. whether to include Palestine or not) and different interpretations of the geographical extent of each country (e.g. does it include its island dependencies, and how to represent disputed territories).
+
+All of the standards above are used in some world datastores, but for many datastores, either no standards are used (e.g. users enter common names for countries) or internal country name standards are followed. This code also codifies some of the more common countryname errors, to help with cleaning and matching of country-level data.
+
+The CIA at one point appeared to use a non-standard set of countrynames on its websites, but statements on its World Factbook site show it using the GEC standard.  Sources for this, and for other standards, are:
+
+* GEC/CIA: https://www.cia.gov/library/publications/the-world-factbook/appendix/appendix-d.html
+* UN Statistics M49: http://unstats.un.org/unsd/methods/m49/m49.htm
+* ISO3166: pycountry library, https://www.iso.org/obp/ui/#search
+* Stanag 1059: http://en.wikipedia.org/wiki/List_of_NATO_country_codes
+
+I haven't been able to find a complete history of when countrynames were brought into effect or removed from each standard, which would be needed by users browsing and matching historical data.
